@@ -1,54 +1,38 @@
-<script>
-	// const overlay = document.querySelector('.overlay');
-	// const navSvg = document.querySelector('.nav-svg');
-	// const navMenu = document.querySelector('.nav-menu');
-	//
-	// const toggleNavMenu = () => {
-	// 	if (window.innerWidth <= 768) {
-	// 		navMenu.classList.toggle('enable');
-	// 		overlay.classList.toggle('enable');
-	// 	}
-	// };
-	//
-	// const removeNavMenu = () => {
-	// 	navMenu.classList.remove('enable');
-	// 	overlay.classList.remove('enable');
-	// };
-	//
-	// const resizeHandler = () => {
-	// 	if (window.innerWidth > 768) {
-	// 		removeNavMenu();
-	// 	}
-	// };
-	//
-	// navSvg.addEventListener('click', toggleNavMenu);
-	// navMenu.addEventListener('click', toggleNavMenu);
-	// overlay.addEventListener('click', removeNavMenu);
-	// window.addEventListener('resize', resizeHandler);
+<script lang="ts">
+	let active: boolean = false;
 </script>
 
 <nav class="nav">
+	<button
+		class="nav__overlay"
+		class:nav__overlay--enabled={active}
+		on:click={() => (active = !active)}
+	></button>
+
 	<a class="nav__logo" href="https://williamwatson.dev"><span>williamwatson.dev</span></a>
-	<section class="nav__menu">
+	<button class="nav__menu" class:nav__menu--enabled={active} on:click={() => (active = !active)}>
 		<a href="/">Home</a>
 		<a href="/about">About</a>
 		<a href="/projects">Projects</a>
 		<a href="/contact">Contact</a>
-	</section>
+	</button>
 
-	<img alt="Burger Menu" class="nav__svg" src="svg/menu.svg" />
+	<button on:click={() => (active = !active)}>
+		<img alt="Burger Menu" class="nav__svg" src="svg/menu.svg" />
+	</button>
 </nav>
 
 <style>
 	.nav {
 		position: fixed;
 		top: 0;
-		z-index: 2;
+		z-index: 3;
 		display: flex;
 		width: 100%;
 		height: 4rem;
 		background-color: #2a2a2a;
 		border-bottom: 1px solid #4a4a4a;
+		overflow: hidden;
 	}
 
 	.nav__logo {
@@ -102,11 +86,12 @@
 			position: fixed;
 			top: -10000px;
 			width: 100%;
+			z-index: 2;
 		}
 
-		/* #nav-menu.enable { */
-		/* 	top: 4rem; */
-		/* } */
+		.nav__menu--enabled {
+			top: 4rem;
+		}
 
 		.nav__menu a {
 			display: flex;
@@ -129,6 +114,22 @@
 
 		.nav img:hover {
 			background-color: #3a3a3a;
+		}
+
+		.nav__overlay {
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			top: -10000px;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			z-index: 1;
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+
+		.nav__overlay--enabled {
+			top: 0;
 		}
 	}
 </style>

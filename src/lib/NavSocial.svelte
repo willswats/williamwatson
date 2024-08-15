@@ -46,7 +46,7 @@
 		.nav-social {
 			position: fixed;
 			left: 0;
-			z-index: 2;
+			z-index: 3;
 			flex-direction: column;
 			justify-content: end;
 			border-top: 0;
@@ -63,12 +63,6 @@
 
 		.nav-social a:last-child {
 			border-right: 0;
-		}
-	}
-
-	@media screen and (max-width: 768px) {
-		.nav-social a img {
-			transform: scale(1);
 		}
 	}
 </style>
