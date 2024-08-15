@@ -63,6 +63,7 @@
 		justify-content: center;
 		align-items: center;
 		font-size: 3rem;
+		margin-top: 1rem;
 	}
 
 	#projects-grid {
