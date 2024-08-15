@@ -1,4 +1,4 @@
-<main id="home">
+<main>
 	<section id="home-card">
 		<section id="home-card-content">
 			<h1>William Watson</h1>
@@ -17,20 +17,20 @@
 </main>
 
 <style>
-	#home {
+	main {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		height: 100vh;
+		height: calc(100vh - 4rem);
 		border-bottom: 1px solid #4a4a4a;
 	}
 
-	#home h1 {
+	h1 {
 		font-size: 4rem;
 	}
 
-	#home h2 {
+	h2 {
 		font-size: 3rem;
 	}
 
@@ -69,11 +69,11 @@
 	}
 
 	@media screen and (max-width: 768px) {
-		#home h1 {
+		h1 {
 			font-size: 3rem;
 		}
 
-		#home h2 {
+		h2 {
 			font-size: 2rem;
 		}
 

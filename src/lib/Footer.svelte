@@ -1,9 +1,9 @@
 <footer>
-	<a target="_blank" rel="noopener noreferrer" href="https://github.com/willswats"
-		><img alt="GitHub" src="svg/github.svg" />
-		<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/willswats/"
-			><img alt="LinkedIn" src="svg/linkedin.svg" /></a
-		>
+	<a target="_blank" rel="noopener noreferrer" href="https://github.com/willswats">
+		<img alt="GitHub" src="svg/github.svg" />
+	</a>
+	<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/willswats/">
+		<img alt="LinkedIn" src="svg/linkedin.svg" />
 	</a>
 </footer>
 
@@ -38,7 +38,8 @@
 	}
 
 	footer a img {
-		transform: scale(1.5);
+		width: 2rem;
+		height: 2rem;
 	}
 
 	@media screen and (min-width: 768px) {
