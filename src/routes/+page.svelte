@@ -5,13 +5,9 @@
 			<h2>Web Developer</h2>
 		</section>
 		<section id="home-card-anchors">
-			<a
-				class="home-card-anchor"
-				href="https://drive.google.com/file/d/1Vl1-7_JHQzl3BeTO-okZSHXxZaVd8b_E/view?usp=sharing"
-				target="_blank"
-				rel="noopener noreferrer">CV</a
-			>
-			<a class="home-card-anchor" href="mailto:williamstuwatson@gmail.com">Contact </a>
+			<a class="home-card-anchor" href="/about">About </a>
+			<a class="home-card-anchor" href="/projects">Projects </a>
+			<a class="home-card-anchor" href="/contact">Contact </a>
 		</section>
 	</section>
 </main>
@@ -60,8 +56,12 @@
 		border-top: 1px solid #4a4a4a;
 	}
 
-	#home-card-anchors a:nth-child(1) {
+	#home-card-anchors a {
 		border-right: 1px solid #4a4a4a;
+	}
+
+	#home-card-anchors a:last-child {
+		border-right: none;
 	}
 
 	#home-card-anchors a:hover {

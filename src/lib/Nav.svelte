@@ -31,7 +31,9 @@
 	<a id="nav-logo" href="https://williamwatson.dev"><span>williamwatson.dev</span></a>
 	<section id="nav-menu">
 		<a href="/">Home</a>
+		<a href="/about">About</a>
 		<a href="/projects">Projects</a>
+		<a href="/contact">Contact</a>
 	</section>
 
 	<img alt="Burger Menu" id="nav-svg" src="svg/menu.svg" />
@@ -67,6 +69,7 @@
 
 	#nav-menu {
 		display: flex;
+		text-wrap: nowrap;
 	}
 
 	#nav-menu a {
