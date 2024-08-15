@@ -2,9 +2,12 @@
 	import ProjectCard from '$lib/ProjectCard.svelte';
 </script>
 
-<main id="projects">
-	<h1>Projects</h1>
-	<section id="projects-grid">
+<main class="projects">
+	<section class="projects__header">
+		<h1>Large Projects</h1>
+		<h2>Projects that I spent a fair amount of time on.</h2>
+	</section>
+	<section class="projects__grid">
 		<ProjectCard
 			title="Review Charter"
 			description="Visualise AniList data in multiple charts."
@@ -49,24 +52,48 @@
 			--background-color="#1a1a1a"
 		/>
 	</section>
+
+	<section class="projects__header">
+		<h1>Smaller Projects</h1>
+		<h2>Projects that I spent a smaller amount of time on.</h2>
+	</section>
+	<section class="projects__grid">
+		<ProjectCard
+			title="YouTube Alternative Switch"
+			description="A Firefox extension for quickly switching videos between YouTube, Piped, Invidious and Chat Replay. "
+			hrefProject="https://addons.mozilla.org/en-US/firefox/addon/youtube-alternative-switch/"
+			hrefRepository="https://github.com/willswats/youtube-alternative-switch"
+			--background-color="#7e201d"
+		/>
+		<ProjectCard
+			title="The Stuffed Potato"
+			description=" An example website for a takeaway restaurant."
+			hrefProject="https://the-stuffed-potato.vercel.app/"
+			hrefRepository="https://github.com/willswats/the-stuffed-potato"
+			--background-color="rgba(0,0,0,0.5)"
+		/>
+	</section>
 </main>
 
 <style>
-	#projects {
+	.projects {
 		display: flex;
 		flex-direction: column;
 	}
 
-	#projects h1 {
+	.projects__header {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		font-size: 3rem;
 		margin-top: 1rem;
 	}
 
-	#projects-grid {
+	h1 {
+		font-size: 3rem;
+	}
+
+	.projects__grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		flex-grow: 1;
@@ -75,13 +102,13 @@
 	}
 
 	@media screen and (max-width: 1100px) {
-		#projects-grid {
+		.projects__grid {
 			margin: 1rem 2rem 6rem 2rem;
 		}
 	}
 
 	@media screen and (max-width: 768px) {
-		#projects-grid {
+		.projects__grid {
 			grid-template-columns: 1fr;
 		}
 	}
