@@ -19,7 +19,6 @@
 		justify-content: center;
 		align-items: center;
 		height: calc(100vh - 4rem);
-		border-bottom: 1px solid #4a4a4a;
 	}
 
 	h1 {

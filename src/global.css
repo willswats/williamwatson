@@ -9,6 +9,8 @@
 body {
   color: #fff;
   background-color: #1a1a1a;
+  /* Accout for the nav */
+  margin-top: 4rem;
 }
 
 a {
@@ -18,12 +20,17 @@ a {
 
 @media screen and (min-width: 768px) {
   body {
-    margin-top: 4rem;
+    /* Account for the footer */
     margin-left: 4rem;
   }
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    /* Account for the footer */
+    margin-bottom: 4rem;
+  }
+
   html {
     font-size: 10px;
   }

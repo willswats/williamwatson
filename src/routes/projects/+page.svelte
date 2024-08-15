@@ -96,6 +96,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		text-align: center;
 		margin-top: 1rem;
 	}
 
@@ -106,9 +107,8 @@
 	.projects__grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		flex-grow: 1;
-		gap: 2rem;
-		margin: 1rem 8rem;
+		gap: 1rem;
+		margin: 1rem 2rem;
 	}
 
 	footer {
@@ -125,13 +125,7 @@
 		color: rgba(255, 165, 0, 0.8);
 	}
 
-	@media screen and (max-width: 1100px) {
-		.projects__grid {
-			margin: 1rem 2rem 6rem 2rem;
-		}
-	}
-
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 1000px) {
 		.projects__grid {
 			grid-template-columns: 1fr;
 		}
