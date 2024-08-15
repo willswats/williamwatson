@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Hack, monospace;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #fff;
+  background-color: #1a1a1a;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    margin-left: 4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+}
