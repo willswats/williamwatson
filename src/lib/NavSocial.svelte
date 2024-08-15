@@ -1,14 +1,14 @@
-<footer>
+<nav>
 	<a target="_blank" rel="noopener noreferrer" href="https://github.com/willswats">
 		<img alt="GitHub" src="svg/github.svg" />
 	</a>
 	<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/willswats/">
 		<img alt="LinkedIn" src="svg/linkedin.svg" />
 	</a>
-</footer>
+</nav>
 
 <style>
-	footer {
+	nav {
 		position: fixed;
 		bottom: 0;
 		left: 0;
@@ -20,7 +20,7 @@
 		border-top: 1px solid #4a4a4a;
 	}
 
-	footer a {
+	nav a {
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -29,21 +29,21 @@
 		border-left: 1px solid #4a4a4a;
 	}
 
-	footer a:last-child {
+	nav a:last-child {
 		border-right: 1px solid #4a4a4a;
 	}
 
-	footer a:hover {
+	nav a:hover {
 		background-color: #3a3a3a;
 	}
 
-	footer a img {
+	nav a img {
 		width: 2rem;
 		height: 2rem;
 	}
 
 	@media screen and (min-width: 768px) {
-		footer {
+		nav {
 			position: fixed;
 			left: 0;
 			z-index: 2;
@@ -55,19 +55,19 @@
 			width: 4rem;
 		}
 
-		footer a {
+		nav a {
 			width: 100%;
 			border-left: 0;
 			border-top: 1px solid #4a4a4a;
 		}
 
-		footer a:last-child {
+		nav a:last-child {
 			border-right: 0;
 		}
 	}
 
 	@media screen and (max-width: 768px) {
-		footer a img {
+		nav a img {
 			transform: scale(1);
 		}
 	}

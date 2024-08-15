@@ -9,7 +9,7 @@
 body {
   color: #fff;
   background-color: #1a1a1a;
-  /* Accout for the nav */
+  /* Accout for the Nav */
   margin-top: 4rem;
 }
 
@@ -20,14 +20,14 @@ a {
 
 @media screen and (min-width: 768px) {
   body {
-    /* Account for the footer */
+    /* Account for the NavSocial */
     margin-left: 4rem;
   }
 }
 
 @media screen and (max-width: 768px) {
   body {
-    /* Account for the footer */
+    /* Account for the NavSocial */
     margin-bottom: 4rem;
   }
 
