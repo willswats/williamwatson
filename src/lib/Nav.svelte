@@ -27,20 +27,20 @@
 	// window.addEventListener('resize', resizeHandler);
 </script>
 
-<nav>
-	<a id="nav-logo" href="https://williamwatson.dev"><span>williamwatson.dev</span></a>
-	<section id="nav-menu">
+<nav class="nav">
+	<a class="nav__logo" href="https://williamwatson.dev"><span>williamwatson.dev</span></a>
+	<section class="nav__menu">
 		<a href="/">Home</a>
 		<a href="/about">About</a>
 		<a href="/projects">Projects</a>
 		<a href="/contact">Contact</a>
 	</section>
 
-	<img alt="Burger Menu" id="nav-svg" src="svg/menu.svg" />
+	<img alt="Burger Menu" class="nav__svg" src="svg/menu.svg" />
 </nav>
 
 <style>
-	nav {
+	.nav {
 		position: fixed;
 		top: 0;
 		z-index: 2;
@@ -51,7 +51,7 @@
 		border-bottom: 1px solid #4a4a4a;
 	}
 
-	#nav-logo {
+	.nav__logo {
 		display: flex;
 		align-items: center;
 		font-size: 1.5rem;
@@ -59,20 +59,20 @@
 		transition: background-color 0.1s;
 	}
 
-	#nav-logo:hover {
+	.nav__logo:hover {
 		background-color: #3a3a3a;
 	}
 
-	#nav-logo span {
+	.nav__logo span {
 		padding: 1rem;
 	}
 
-	#nav-menu {
+	.nav__menu {
 		display: flex;
 		text-wrap: nowrap;
 	}
 
-	#nav-menu a {
+	.nav__menu a {
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -82,22 +82,22 @@
 		transition: background-color 0.1s;
 	}
 
-	#nav-menu a:hover {
+	.nav__menu a:hover {
 		background-color: #3a3a3a;
 	}
 
-	nav img {
+	.nav img {
 		display: none;
 	}
 
 	@media screen and (min-width: 768px) {
-		#nav-menu {
-			margin-right: 4rem;
+		.nav__menu {
+			margin-right: 4rem; /* Account for NavSocial */
 		}
 	}
 
 	@media screen and (max-width: 768px) {
-		#nav-menu {
+		.nav__menu {
 			flex-direction: column;
 			position: fixed;
 			top: -10000px;
@@ -108,7 +108,7 @@
 		/* 	top: 4rem; */
 		/* } */
 
-		#nav-menu a {
+		.nav__menu a {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
@@ -119,7 +119,7 @@
 			border-bottom: 1px solid #4a4a4a;
 		}
 
-		nav img {
+		.nav img {
 			display: block;
 			cursor: pointer;
 			padding: 1rem;
@@ -127,7 +127,7 @@
 			border-left: 1px solid #4a4a4a;
 		}
 
-		nav img:hover {
+		.nav img:hover {
 			background-color: #3a3a3a;
 		}
 	}

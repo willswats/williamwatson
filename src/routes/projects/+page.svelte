@@ -73,7 +73,7 @@
 			--background-color="rgba(0,0,0,0.5)"
 		/>
 	</section>
-	<footer>
+	<footer class="projects__footer">
 		<p>
 			View more of my projects on
 			<a
@@ -100,8 +100,12 @@
 		margin-top: 1rem;
 	}
 
-	h1 {
+	.projects__header h1 {
 		font-size: 3rem;
+	}
+
+	.projects__header h2 {
+		font-size: 1.5rem;
 	}
 
 	.projects__grid {
@@ -111,17 +115,17 @@
 		margin: 1rem 2rem;
 	}
 
-	footer {
+	.projects__footer {
 		display: flex;
 		justify-content: center;
 	}
 
-	footer a {
+	.projects__footer a {
 		color: rgba(255, 165, 0, 1);
 		transition: color 0.1s;
 	}
 
-	footer a:hover {
+	.projects__footer a:hover {
 		color: rgba(255, 165, 0, 0.8);
 	}
 
