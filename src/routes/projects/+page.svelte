@@ -4,7 +4,7 @@
 
 <main class="projects">
 	<section class="projects__header">
-		<h1>Large Projects</h1>
+		<h1>Projects</h1>
 		<h2>Projects that I spent a fair amount of time on.</h2>
 	</section>
 	<section class="projects__grid">
@@ -73,6 +73,16 @@
 			--background-color="rgba(0,0,0,0.5)"
 		/>
 	</section>
+	<footer>
+		<p>
+			View more of my projects on
+			<a
+				target="_blank"
+				rel="noopener noreferrer"
+				href="https://github.com/willswats?tab=repositories">GitHub</a
+			>
+		</p>
+	</footer>
 </main>
 
 <style>
@@ -99,6 +109,20 @@
 		flex-grow: 1;
 		gap: 2rem;
 		margin: 1rem 8rem;
+	}
+
+	footer {
+		display: flex;
+		justify-content: center;
+	}
+
+	footer a {
+		color: rgba(255, 165, 0, 1);
+		transition: color 0.1s;
+	}
+
+	footer a:hover {
+		color: rgba(255, 165, 0, 0.8);
 	}
 
 	@media screen and (max-width: 1100px) {
