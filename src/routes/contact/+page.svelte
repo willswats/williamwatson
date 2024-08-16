@@ -21,16 +21,19 @@
 	p {
 		font-size: 1.2rem;
 	}
+
 	.contact {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		height: calc(100vh - 4rem); /* Account for Nav */
+		margin: 0 2rem;
 	}
 
 	.contact__card {
 		display: flex;
 		flex-direction: column;
+		width: 100%;
 		background-color: #2a2a2a;
 		border: 1px solid #4a4a4a;
 		margin: 2rem;
