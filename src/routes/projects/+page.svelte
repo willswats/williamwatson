@@ -3,10 +3,7 @@
 </script>
 
 <main class="projects">
-	<section class="projects__header">
-		<h1>Projects</h1>
-		<h2>Projects that I spent a fair amount of time on.</h2>
-	</section>
+	<h1>Projects</h1>
 	<section class="projects__grid">
 		<ProjectCard
 			title="Review Charter"
@@ -52,11 +49,7 @@
 			--background-color="#1a1a1a"
 		/>
 	</section>
-
-	<section class="projects__header">
-		<h1>Smaller Projects</h1>
-		<h2>Projects that I spent a smaller amount of time on.</h2>
-	</section>
+	<h1>Smaller Projects</h1>
 	<section class="projects__grid">
 		<ProjectCard
 			title="YouTube Alternative Switch"
@@ -91,21 +84,18 @@
 		flex-direction: column;
 	}
 
-	.projects__header {
+	.projects h1 {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
-		margin-top: 1rem;
-	}
-
-	.projects__header h1 {
 		font-size: 3rem;
+		padding-top: 1rem;
 	}
 
-	.projects__header h2 {
-		font-size: 1.5rem;
+	.projects h1:last-of-type {
+		border-top: 1px solid #4a4a4a;
 	}
 
 	.projects__grid {

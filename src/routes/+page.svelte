@@ -8,6 +8,11 @@
 			<a href="/about">About </a>
 			<a href="/projects">Projects </a>
 			<a href="/contact">Contact </a>
+			<a
+				href="https://drive.google.com/file/d/1Vl1-7_JHQzl3BeTO-okZSHXxZaVd8b_E/view?usp=sharing"
+				target="_blank"
+				rel="noopener noreferrer">CV</a
+			>
 		</section>
 	</section>
 </main>
@@ -56,6 +61,7 @@
 	}
 
 	.home__card-anchors a {
+		font-size: 1.2rem;
 		border-right: 1px solid #4a4a4a;
 	}
 
