@@ -91,11 +91,7 @@
 		align-items: center;
 		text-align: center;
 		font-size: 3rem;
-		padding-top: 1rem;
-	}
-
-	.projects h1:last-of-type {
-		border-top: 1px solid #4a4a4a;
+		margin-top: 1rem;
 	}
 
 	.projects__grid {
