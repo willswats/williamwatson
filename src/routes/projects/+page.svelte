@@ -84,6 +84,10 @@
 		flex-direction: column;
 	}
 
+	.projects h1:first-of-type {
+		margin-top: 2rem;
+	}
+
 	.projects h1 {
 		display: flex;
 		flex-direction: column;
@@ -91,7 +95,10 @@
 		align-items: center;
 		text-align: center;
 		font-size: 3rem;
-		margin-top: 1rem;
+		background-color: #2a2a2a;
+		border: 1px solid #4a4a4a;
+		margin: 0 2rem;
+		padding: 1rem;
 	}
 
 	.projects__grid {
