@@ -2,16 +2,15 @@
 	<section class="about__card">
 		<h1>About</h1>
 		<p>
-			I'm currently a student at the University of Portsmouth studying Software Engineering. I enjoy
-			programming and I've built projects in my free time, as well as for Work Experience, College
-			and University. You can view some of these projects on the <a href="/projects"
-				>Projects page</a
-			>, and you can view all of them on my
+			I'm currently a student at the University of Portsmouth studying Software Engineering. I've
+			built projects in my free time, as well as for Work Experience, College and University. You
+			can view some of these projects on the <a href="/projects">Projects page</a>, and you can view
+			all of them on my
 			<a
 				target="_blank"
 				rel="noopener noreferrer"
 				href="https://github.com/willswats?tab=repositories">GitHub</a
-			>. If you'd like to read more about me, feel free to view my
+			>. If you would like to read more about me, you can read my
 			<a
 				href="https://drive.google.com/file/d/1Vl1-7_JHQzl3BeTO-okZSHXxZaVd8b_E/view?usp=sharing"
 				target="_blank"
