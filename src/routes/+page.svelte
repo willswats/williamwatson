@@ -1,10 +1,10 @@
 <main class="home">
-	<section class="home__card">
-		<section class="home__card-content">
+	<section class="home-card">
+		<section class="home-card-content">
 			<h1>William Watson</h1>
 			<h2>Web Developer</h2>
 		</section>
-		<section class="home__card-anchors">
+		<section class="home-card-anchors">
 			<a href="/about">About </a>
 			<a href="/projects">Projects </a>
 			<a href="/contact">Contact </a>
@@ -18,7 +18,7 @@
 </main>
 
 <style>
-	.home {
+	main {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -26,7 +26,7 @@
 		height: calc(100vh - 4rem); /* Account for Nav */
 	}
 
-	.home__card {
+	.home-card {
 		display: flex;
 		flex-direction: column;
 		background-color: #2a2a2a;
@@ -34,25 +34,25 @@
 		margin: 2rem;
 	}
 
-	.home__card-content {
+	.home-card-content {
 		display: flex;
 		flex-direction: column;
 		padding: 2rem;
 	}
 
-	.home__card-content h1 {
+	.home-card-content h1 {
 		font-size: 4rem;
 	}
 
-	.home__card-content h2 {
+	.home-card-content h2 {
 		font-size: 3rem;
 	}
 
-	.home__card-anchors {
+	.home-card-anchors {
 		display: flex;
 	}
 
-	.home__card-anchors a {
+	.home-card-anchors a {
 		width: 100%;
 		text-align: center;
 		padding: 1rem;
@@ -60,34 +60,34 @@
 		border-top: 1px solid #4a4a4a;
 	}
 
-	.home__card-anchors a {
+	.home-card-anchors a {
 		font-size: 1.2rem;
 		border-right: 1px solid #4a4a4a;
 	}
 
-	.home__card-anchors a:last-child {
+	.home-card-anchors a:last-child {
 		border-right: none;
 	}
 
-	.home__card-anchors a:hover {
+	.home-card-anchors a:hover {
 		background-color: #4a4a4a;
 	}
 
 	@media screen and (max-width: 768px) {
-		.home {
+		main {
 			height: calc(100vh - 8rem); /* Account for Nav and NavSocial */
 		}
 
-		.home__card-content h1 {
+		.home-card-content {
+			padding: 1rem;
+		}
+
+		.home-card-content h1 {
 			font-size: 3rem;
 		}
 
-		.home__card-content h2 {
+		.home-card-content h2 {
 			font-size: 2rem;
-		}
-
-		.home__card-content {
-			padding: 1rem;
 		}
 	}
 </style>

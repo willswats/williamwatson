@@ -5,19 +5,19 @@
 	export let hrefRepository: string;
 </script>
 
-<figure class="project-card">
-	<figcaption class="project-card__text">
+<figure>
+	<figcaption>
 		<h2>{title}</h2>
 		<p>{description}</p>
 	</figcaption>
-	<section class="project-card__anchors">
+	<section>
 		<a href={hrefProject} target="_blank" rel="noopener noreferrer">View Project</a>
 		<a href={hrefRepository} target="_blank" rel="noopener noreferrer">View Repo</a>
 	</section>
 </figure>
 
 <style>
-	.project-card {
+	figure {
 		display: flex;
 		flex-direction: column;
 		text-align: center;
@@ -25,7 +25,7 @@
 		border: 1px solid #4a4a4a;
 	}
 
-	.project-card__text {
+	figure figcaption {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -35,19 +35,19 @@
 		background-image: var(--background-image, '');
 	}
 
-	.project-card__text h2 {
+	figure figcaption h2 {
 		font-size: 2rem;
 	}
 
-	.project-card__text p {
+	figure figcaption p {
 		font-size: 1.2rem;
 	}
 
-	.project-card__anchors {
+	figure section {
 		display: flex;
 	}
 
-	.project-card__anchors a {
+	figure section a {
 		text-align: center;
 		width: 100%;
 		color: #fff;
@@ -58,11 +58,11 @@
 		font-size: 1rem;
 	}
 
-	.project-card__anchors a:hover {
+	figure section a:hover {
 		background-color: #3a3a3a;
 	}
 
-	.project-card__anchors a:nth-of-type(1) {
+	figure section a:nth-of-type(1) {
 		border-right: 1px solid #4a4a4a;
 	}
 </style>

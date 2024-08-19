@@ -3,9 +3,9 @@
 	import PageH1 from '$lib/PageH1.svelte';
 </script>
 
-<main class="projects">
+<main>
 	<PageH1>Projects</PageH1>
-	<section class="projects__grid">
+	<section>
 		<ProjectCard
 			title="Review Charter"
 			description="Visualise AniList data in multiple charts."
@@ -51,7 +51,7 @@
 		/>
 	</section>
 	<PageH1>Smaller Projects</PageH1>
-	<section class="projects__grid">
+	<section>
 		<ProjectCard
 			title="YouTube Alternative Switch"
 			description="A Firefox extension for quickly switching videos between YouTube, Piped, Invidious and Chat Replay. "
@@ -67,7 +67,7 @@
 			--background-color="rgba(0,0,0,0.5)"
 		/>
 	</section>
-	<footer class="projects__footer">
+	<footer>
 		<p>
 			View more of my projects on
 			<a
@@ -80,38 +80,35 @@
 </main>
 
 <style>
-	.projects {
+	main {
 		display: flex;
 		flex-direction: column;
 	}
 
-	.projects__grid {
+	main section {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 1rem;
 		margin: 0rem 2rem;
 	}
 
-	.projects__grid:last-of-type {
-		margin-bottom: 1rem;
-	}
-
-	.projects__footer {
+	footer {
 		display: flex;
 		justify-content: center;
+		margin-top: 1rem;
 	}
 
-	.projects__footer a {
+	footer a {
 		color: rgba(255, 165, 0, 1);
 		transition: color 0.1s;
 	}
 
-	.projects__footer a:hover {
+	footer a:hover {
 		color: rgba(255, 165, 0, 0.8);
 	}
 
 	@media screen and (max-width: 1000px) {
-		.projects__grid {
+		main section {
 			grid-template-columns: 1fr;
 		}
 	}

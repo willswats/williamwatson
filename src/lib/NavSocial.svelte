@@ -1,4 +1,4 @@
-<nav class="nav-social">
+<nav>
 	<a target="_blank" rel="noopener noreferrer" href="https://github.com/willswats">
 		<img alt="GitHub" src="svg/github.svg" />
 	</a>
@@ -8,7 +8,7 @@
 </nav>
 
 <style>
-	.nav-social {
+	nav {
 		position: fixed;
 		bottom: 0;
 		left: 0;
@@ -20,7 +20,7 @@
 		border-top: 1px solid #4a4a4a;
 	}
 
-	.nav-social a {
+	nav a {
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -29,21 +29,21 @@
 		border-left: 1px solid #4a4a4a;
 	}
 
-	.nav-social a:last-child {
+	nav a:last-child {
 		border-right: 1px solid #4a4a4a;
 	}
 
-	.nav-social a:hover {
+	nav a:hover {
 		background-color: #3a3a3a;
 	}
 
-	.nav-social a img {
+	nav a img {
 		width: 2rem;
 		height: 2rem;
 	}
 
 	@media screen and (min-width: 768px) {
-		.nav-social {
+		nav {
 			position: fixed;
 			left: 0;
 			z-index: 3;
@@ -55,13 +55,13 @@
 			width: 4rem;
 		}
 
-		.nav-social a {
+		nav a {
 			width: 100%;
 			border-left: 0;
 			border-top: 1px solid #4a4a4a;
 		}
 
-		.nav-social a:last-child {
+		nav a:last-child {
 			border-right: 0;
 		}
 	}

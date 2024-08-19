@@ -2,9 +2,9 @@
 	import PageH1 from '$lib/PageH1.svelte';
 </script>
 
-<main class="about">
+<main>
 	<PageH1>About</PageH1>
-	<section class="about__card">
+	<section>
 		<p>
 			I'm currently a student at the University of Portsmouth studying Software Engineering. I've
 			built projects in my free time, as well as for Work Experience, College and University. You
@@ -26,13 +26,13 @@
 </main>
 
 <style>
-	.about {
+	main {
 		display: flex;
 		flex-direction: column;
 		height: calc(100vh - 4rem); /* Account for Nav */
 	}
 
-	.about__card {
+	main section {
 		display: flex;
 		flex-direction: column;
 		background-color: #2a2a2a;
@@ -41,21 +41,21 @@
 		padding: 2rem;
 	}
 
-	.about__card p {
+	main section p {
 		font-size: 1.2rem;
 	}
 
-	.about__card a {
+	main section a {
 		color: rgba(255, 165, 0, 1);
 		transition: color 0.1s;
 	}
 
-	.about__card a:hover {
+	main section a:hover {
 		color: rgba(255, 165, 0, 0.8);
 	}
 
 	@media screen and (max-width: 768px) {
-		.about {
+		main {
 			height: calc(100vh - 8rem); /* Account for Nav and NavSocial */
 		}
 	}

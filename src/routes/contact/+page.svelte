@@ -2,9 +2,9 @@
 	import PageH1 from '$lib/PageH1.svelte';
 </script>
 
-<main class="contact">
+<main>
 	<PageH1>Contact</PageH1>
-	<section class="contact__card">
+	<section>
 		<p>Email: <a href="mailto:william@williamwatson.dev">william@williamwatson.dev</a></p>
 		<p>
 			GitHub: <a target="_blank" rel="noopener noreferrer" href="https://github.com/willswats"
@@ -22,17 +22,13 @@
 </main>
 
 <style>
-	p {
-		font-size: 1.2rem;
-	}
-
-	.contact {
+	main {
 		display: flex;
 		flex-direction: column;
 		height: calc(100vh - 4rem); /* Account for Nav */
 	}
 
-	.contact__card {
+	main section {
 		display: flex;
 		flex-direction: column;
 		background-color: #2a2a2a;
@@ -41,21 +37,21 @@
 		padding: 2rem;
 	}
 
-	.contact__card p {
+	main section p {
 		font-size: 1.2rem;
 	}
 
-	.contact__card a {
+	main section a {
 		color: rgba(255, 165, 0, 1);
 		transition: color 0.1s;
 	}
 
-	.contact__card a:hover {
+	main section a:hover {
 		color: rgba(255, 165, 0, 0.8);
 	}
 
 	@media screen and (max-width: 768px) {
-		.contact {
+		main {
 			height: calc(100vh - 8rem); /* Account for Nav and NavSocial */
 		}
 	}
