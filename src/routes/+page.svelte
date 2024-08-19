@@ -1,4 +1,4 @@
-<main class="home">
+<main>
 	<section class="home-card">
 		<section class="home-card-content">
 			<h1>William Watson</h1>

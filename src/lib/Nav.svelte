@@ -3,7 +3,6 @@
 
 	const toggleNavMobile = () => {
 		navMobileActive = !navMobileActive;
-		console.log(navMobileActive);
 	};
 </script>
 
@@ -37,7 +36,7 @@
 		height: 4rem;
 		background-color: #2a2a2a;
 		border-bottom: 1px solid #4a4a4a;
-		/* overflow: hidden; */
+		overflow: hidden;
 	}
 
 	.nav-logo {
