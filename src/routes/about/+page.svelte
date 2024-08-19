@@ -1,6 +1,10 @@
+<script>
+	import PageH1 from '$lib/PageH1.svelte';
+</script>
+
 <main class="about">
+	<PageH1>About</PageH1>
 	<section class="about__card">
-		<h1>About</h1>
 		<p>
 			I'm currently a student at the University of Portsmouth studying Software Engineering. I've
 			built projects in my free time, as well as for Work Experience, College and University. You
@@ -25,7 +29,6 @@
 	.about {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
 		height: calc(100vh - 4rem); /* Account for Nav */
 	}
 
@@ -34,12 +37,8 @@
 		flex-direction: column;
 		background-color: #2a2a2a;
 		border: 1px solid #4a4a4a;
-		margin: 2rem;
+		margin: 0rem 2rem;
 		padding: 2rem;
-	}
-
-	.about__card h1 {
-		font-size: 3rem;
 	}
 
 	.about__card p {

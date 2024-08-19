@@ -1,6 +1,10 @@
+<script>
+	import PageH1 from '$lib/PageH1.svelte';
+</script>
+
 <main class="contact">
+	<PageH1>Contact</PageH1>
 	<section class="contact__card">
-		<h1>Contact</h1>
 		<p>Email: <a href="mailto:william@williamwatson.dev">william@williamwatson.dev</a></p>
 		<p>
 			GitHub: <a target="_blank" rel="noopener noreferrer" href="https://github.com/willswats"
@@ -25,23 +29,16 @@
 	.contact {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
 		height: calc(100vh - 4rem); /* Account for Nav */
-		margin: 0 2rem;
 	}
 
 	.contact__card {
 		display: flex;
 		flex-direction: column;
-		width: 100%;
 		background-color: #2a2a2a;
 		border: 1px solid #4a4a4a;
-		margin: 2rem;
+		margin: 0 2rem;
 		padding: 2rem;
-	}
-
-	.contact__card h1 {
-		font-size: 3rem;
 	}
 
 	.contact__card p {

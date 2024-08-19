@@ -1,9 +1,10 @@
 <script lang="ts">
 	import ProjectCard from '$lib/ProjectCard.svelte';
+	import PageH1 from '$lib/PageH1.svelte';
 </script>
 
 <main class="projects">
-	<h1>Projects</h1>
+	<PageH1>Projects</PageH1>
 	<section class="projects__grid">
 		<ProjectCard
 			title="Review Charter"
@@ -49,7 +50,7 @@
 			--background-color="#1a1a1a"
 		/>
 	</section>
-	<h1>Smaller Projects</h1>
+	<PageH1>Smaller Projects</PageH1>
 	<section class="projects__grid">
 		<ProjectCard
 			title="YouTube Alternative Switch"
@@ -84,28 +85,15 @@
 		flex-direction: column;
 	}
 
-	.projects h1:first-of-type {
-		margin-top: 2rem;
-	}
-
-	.projects h1 {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		font-size: 3rem;
-		background-color: #2a2a2a;
-		border: 1px solid #4a4a4a;
-		margin: 0 2rem;
-		padding: 1rem;
-	}
-
 	.projects__grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 1rem;
-		margin: 1rem 2rem;
+		margin: 0rem 2rem;
+	}
+
+	.projects__grid:last-of-type {
+		margin-bottom: 1rem;
 	}
 
 	.projects__footer {
