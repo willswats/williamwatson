@@ -14,6 +14,13 @@
 			--background-color="#0b1622"
 		/>
 		<ProjectCard
+			title="React Weather"
+			description="A weather application."
+			hrefProject="https://react-weather-willswats.vercel.app"
+			hrefRepository="https://github.com/willswats/react-weather"
+			--background-color="#10161d"
+		/>
+		<ProjectCard
 			title="Astrocats"
 			description="A Unity Asteroids clone, but with cats."
 			hrefProject="https://willswats.itch.io/astrocats"
@@ -26,13 +33,6 @@
 			hrefProject="https://react-pomodoro-willswats.vercel.app"
 			hrefRepository="https://github.com/willswats/react-pomodoro"
 			--background-color="#7e201d"
-		/>
-		<ProjectCard
-			title="React Weather"
-			description="A weather application."
-			hrefProject="https://react-weather-willswats.vercel.app"
-			hrefRepository="https://github.com/willswats/react-weather"
-			--background-color="#10161d"
 		/>
 		<ProjectCard
 			title="React Calculator"

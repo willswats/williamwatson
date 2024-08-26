@@ -7,6 +7,13 @@
 	<section>
 		<p>Email: <a href="mailto:william@williamwatson.dev">william@williamwatson.dev</a></p>
 		<p>
+			Matrix: <a
+				target="_blank"
+				rel="noopener noreferrer"
+				href="https://matrix.to/#/@willswats:matrix.org">@willswats:matrix.org</a
+			>
+		</p>
+		<p>
 			GitHub: <a target="_blank" rel="noopener noreferrer" href="https://github.com/willswats"
 				>github.com/willswats</a
 			>
