@@ -116,4 +116,10 @@
 			grid-template-columns: 1fr;
 		}
 	}
+
+	@media screen and (max-width: 768px) {
+		main section {
+			margin: 0 1rem;
+		}
+	}
 </style>

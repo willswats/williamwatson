@@ -13,4 +13,10 @@
 		margin: 1rem 2rem;
 		padding: 1rem;
 	}
+
+	@media screen and (max-width: 768px) {
+		h1 {
+			margin: 1rem;
+		}
+	}
 </style>

@@ -82,6 +82,10 @@
 			height: calc(100vh - 8rem); /* Account for Nav and NavSocial */
 		}
 
+		.home-card {
+			margin: 1rem;
+		}
+
 		.home-card-content {
 			padding: 1rem;
 		}

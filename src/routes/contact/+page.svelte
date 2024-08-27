@@ -65,5 +65,9 @@
 		main {
 			height: calc(100vh - 8rem); /* Account for Nav and NavSocial */
 		}
+
+		main section {
+			margin: 0 1rem;
+		}
 	}
 </style>
