@@ -103,6 +103,7 @@
 			justify-content: center;
 			align-items: center;
 			flex-grow: 1;
+			width: 100%;
 			background-color: #2a2a2a;
 			border: none;
 			border-bottom: 1px solid #4a4a4a;
