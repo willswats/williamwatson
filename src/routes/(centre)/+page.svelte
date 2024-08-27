@@ -2,40 +2,29 @@
 	<title>William Watson | Home</title>
 </svelte:head>
 
-<main>
-	<section class="home-card">
-		<section class="home-card-content">
-			<h1>William Watson</h1>
-			<h2>Web Developer</h2>
-		</section>
-		<section class="home-card-anchors">
-			<a href="/about">About </a>
-			<a href="/projects">Projects </a>
-			<a href="/contact">Contact </a>
-			<a
-				href="https://drive.google.com/file/d/1Vl1-7_JHQzl3BeTO-okZSHXxZaVd8b_E/view?usp=sharing"
-				target="_blank"
-				rel="noopener noreferrer">CV</a
-			>
-		</section>
+<section class="home-card">
+	<section class="home-card-content">
+		<h1>William Watson</h1>
+		<h2>Web Developer</h2>
 	</section>
-</main>
+	<section class="home-card-anchors">
+		<a href="/about">About </a>
+		<a href="/projects">Projects </a>
+		<a href="/contact">Contact </a>
+		<a
+			href="https://drive.google.com/file/d/1Vl1-7_JHQzl3BeTO-okZSHXxZaVd8b_E/view?usp=sharing"
+			target="_blank"
+			rel="noopener noreferrer">CV</a
+		>
+	</section>
+</section>
 
 <style>
-	main {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		height: calc(100vh - 4rem); /* Account for Nav */
-	}
-
 	.home-card {
 		display: flex;
 		flex-direction: column;
 		background-color: #2a2a2a;
 		border: 1px solid #4a4a4a;
-		margin: 1rem;
 	}
 
 	.home-card-content {

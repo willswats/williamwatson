@@ -10,10 +10,3 @@
 <main>
 	<PageH1>{$page.status} - {$page.error ? $page.error.message : ''}</PageH1>
 </main>
-
-<style>
-	main {
-		display: flex;
-		flex-direction: column;
-	}
-</style>
