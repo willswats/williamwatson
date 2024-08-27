@@ -7,23 +7,17 @@
 </script>
 
 <nav>
-	<button
-		class="nav-overlay"
-		class:nav-overlay-enabled={navMobileActive}
-		on:click={toggleNavMobile}
-	/>
+	<div class="nav-overlay" class:nav-overlay-enabled={navMobileActive} on:click={toggleNavMobile} />
 
 	<a class="nav-logo" href="https://williamwatson.dev"><span>williamwatson.dev</span></a>
-	<button class="nav-menu" class:nav-menu-enabled={navMobileActive} on:click={toggleNavMobile}>
+	<section class="nav-menu" class:nav-menu-enabled={navMobileActive} on:click={toggleNavMobile}>
 		<a href="/">Home</a>
 		<a href="/about">About</a>
 		<a href="/projects">Projects</a>
 		<a href="/contact">Contact</a>
-	</button>
+	</section>
 
-	<button on:click={toggleNavMobile}>
-		<img alt="Burger Menu" src="svg/menu.svg" />
-	</button>
+	<img alt="Burger Menu" src="svg/menu.svg" on:click={toggleNavMobile} />
 </nav>
 
 <style>
