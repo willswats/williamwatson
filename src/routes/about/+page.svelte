@@ -62,9 +62,5 @@
 		main {
 			height: calc(100vh - 8rem); /* Account for Nav and NavSocial */
 		}
-
-		main section p {
-			font-size: 1rem;
-		}
 	}
 </style>
