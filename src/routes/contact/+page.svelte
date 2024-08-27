@@ -45,7 +45,7 @@
 		background-color: #2a2a2a;
 		border: 1px solid #4a4a4a;
 		margin: 0 1rem;
-		padding: 2rem;
+		padding: 1rem;
 	}
 
 	main section p {
