@@ -2,6 +2,10 @@
 	import PageH1 from '$lib/PageH1.svelte';
 </script>
 
+<svelte:head>
+	<title>William Watson | About</title>
+</svelte:head>
+
 <main>
 	<PageH1>About</PageH1>
 	<section>

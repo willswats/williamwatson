@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>William Watson | Home</title>
+</svelte:head>
+
 <main>
 	<section class="home-card">
 		<section class="home-card-content">

@@ -3,6 +3,10 @@
 	import PageH1 from '$lib/PageH1.svelte';
 </script>
 
+<svelte:head>
+	<title>William Watson | Projects</title>
+</svelte:head>
+
 <main>
 	<PageH1>Projects</PageH1>
 	<section>
