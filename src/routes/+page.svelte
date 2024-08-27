@@ -35,7 +35,7 @@
 		flex-direction: column;
 		background-color: #2a2a2a;
 		border: 1px solid #4a4a4a;
-		margin: 2rem;
+		margin: 1rem;
 	}
 
 	.home-card-content {
@@ -80,10 +80,6 @@
 	@media screen and (max-width: 768px) {
 		main {
 			height: calc(100vh - 8rem); /* Account for Nav and NavSocial */
-		}
-
-		.home-card {
-			margin: 1rem;
 		}
 
 		.home-card-content {

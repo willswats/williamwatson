@@ -41,7 +41,7 @@
 		flex-direction: column;
 		background-color: #2a2a2a;
 		border: 1px solid #4a4a4a;
-		margin: 0rem 2rem;
+		margin: 0rem 1rem;
 		padding: 2rem;
 	}
 
@@ -61,10 +61,6 @@
 	@media screen and (max-width: 768px) {
 		main {
 			height: calc(100vh - 8rem); /* Account for Nav and NavSocial */
-		}
-
-		main section {
-			margin: 0 1rem;
 		}
 	}
 </style>

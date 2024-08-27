@@ -93,7 +93,7 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 1rem;
-		margin: 0rem 2rem;
+		margin: 0rem 1rem;
 	}
 
 	footer {
