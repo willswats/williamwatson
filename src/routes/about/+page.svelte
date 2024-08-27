@@ -42,12 +42,13 @@
 		justify-content: center;
 		align-items: center;
 		height: calc(100vh - 4rem); /* Account for Nav */
+		margin: 0 1rem;
 	}
 
 	main section {
 		display: flex;
 		flex-direction: column;
-		width: 50%;
+		width: 55rem;
 	}
 
 	figure {
@@ -81,6 +82,12 @@
 		width: 12rem;
 		border: 1px solid #4a4a4a;
 		margin-right: 1rem;
+	}
+
+	@media screen and (max-width: 1000px) {
+		main section {
+			width: 100%;
+		}
 	}
 
 	@media screen and (max-width: 768px) {
