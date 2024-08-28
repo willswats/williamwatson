@@ -42,9 +42,6 @@
 	}
 
 	figure {
-		display: flex;
-		justify-content: center;
-		align-items: center;
 		background-color: #2a2a2a;
 		border: 1px solid #4a4a4a;
 		border-top: none;
@@ -65,6 +62,7 @@
 	}
 
 	img {
+		float: left;
 		width: 12rem;
 		border: 1px solid #4a4a4a;
 		margin-right: 1rem;
@@ -73,6 +71,16 @@
 	@media screen and (max-width: 1000px) {
 		section {
 			width: 100%;
+		}
+
+		img {
+			width: 10rem;
+		}
+	}
+
+	@media screen and (max-width: 768px) {
+		img {
+			width: 8rem;
 		}
 	}
 </style>
