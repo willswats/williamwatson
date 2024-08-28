@@ -72,7 +72,7 @@
 			--background-color="rgba(0,0,0,0.5)"
 		/>
 	</section>
-	<footer>
+	<footer slot="footer">
 		<p>
 			View more of my projects on
 			<a
