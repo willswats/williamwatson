@@ -94,7 +94,6 @@
 	footer {
 		display: flex;
 		justify-content: center;
-		margin-top: 1rem;
 	}
 
 	footer a {
