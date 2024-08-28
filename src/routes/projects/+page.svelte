@@ -9,7 +9,7 @@
 </svelte:head>
 
 <PageFull>
-	<PageH1>Projects</PageH1>
+	<PageH1 --margin-bottom="1rem">Projects</PageH1>
 	<section>
 		<ProjectCard
 			title="Review Charter"
@@ -55,7 +55,7 @@
 			--background-color="#1a1a1a"
 		/>
 	</section>
-	<PageH1>Smaller Projects</PageH1>
+	<PageH1 --margin-top="1rem" --margin-bottom="1rem">Smaller Projects</PageH1>
 	<section>
 		<ProjectCard
 			title="YouTube Alternative Switch"

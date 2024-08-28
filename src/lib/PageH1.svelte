@@ -12,5 +12,7 @@
 		background-color: #2a2a2a;
 		border: 1px solid #4a4a4a;
 		padding: 1rem;
+		margin-top: var(--margin-top, '');
+		margin-bottom: var(--margin-bottom, '');
 	}
 </style>
