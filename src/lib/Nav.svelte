@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { page } from '$app/stores';
+
 	let navMobileActive: boolean = false;
 
 	const toggleNavMobile = () => {
@@ -15,10 +17,10 @@
 
 	<a class="nav-logo" href="https://williamwatson.dev"><span>williamwatson.dev</span></a>
 	<button class="nav-menu" class:nav-menu-enabled={navMobileActive} on:click={toggleNavMobile}>
-		<a href="/">Home</a>
-		<a href="/about">About</a>
-		<a href="/projects">Projects</a>
-		<a href="/contact">Contact</a>
+		<a href="/" class:nav-menu-a-enabled={$page.url.pathname == '/'}>Home</a>
+		<a href="/about" class:nav-menu-a-enabled={$page.url.pathname == '/about'}>About</a>
+		<a href="/projects" class:nav-menu-a-enabled={$page.url.pathname == '/projects'}>Projects</a>
+		<a href="/contact" class:nav-menu-a-enabled={$page.url.pathname == '/contact'}>Contact</a>
 	</button>
 
 	<button on:click={toggleNavMobile}>
@@ -71,6 +73,10 @@
 	}
 
 	.nav-menu a:hover {
+		background-color: #3a3a3a;
+	}
+
+	.nav-menu-a-enabled {
 		background-color: #3a3a3a;
 	}
 
