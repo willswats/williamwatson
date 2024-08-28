@@ -1,23 +1,29 @@
+<script>
+	import PageCentre from '$src/lib/PageCentre.svelte';
+</script>
+
 <svelte:head>
 	<title>William Watson | Home</title>
 </svelte:head>
 
-<section class="home-card">
-	<section class="home-card-content">
-		<h1>William Watson</h1>
-		<h2>Web Developer</h2>
+<PageCentre>
+	<section class="home-card">
+		<section class="home-card-content">
+			<h1>William Watson</h1>
+			<h2>Web Developer</h2>
+		</section>
+		<section class="home-card-anchors">
+			<a href="/about">About </a>
+			<a href="/projects">Projects </a>
+			<a href="/contact">Contact </a>
+			<a
+				href="https://drive.google.com/file/d/1Vl1-7_JHQzl3BeTO-okZSHXxZaVd8b_E/view?usp=sharing"
+				target="_blank"
+				rel="noopener noreferrer">CV</a
+			>
+		</section>
 	</section>
-	<section class="home-card-anchors">
-		<a href="/about">About </a>
-		<a href="/projects">Projects </a>
-		<a href="/contact">Contact </a>
-		<a
-			href="https://drive.google.com/file/d/1Vl1-7_JHQzl3BeTO-okZSHXxZaVd8b_E/view?usp=sharing"
-			target="_blank"
-			rel="noopener noreferrer">CV</a
-		>
-	</section>
-</section>
+</PageCentre>
 
 <style>
 	.home-card {
