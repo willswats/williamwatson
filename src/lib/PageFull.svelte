@@ -14,4 +14,10 @@
 	section {
 		margin: var(--margin, '1rem');
 	}
+
+	@media screen and (max-width: 768px) {
+		section {
+			margin: var(--margin-breakpoint, '1rem');
+		}
+	}
 </style>
