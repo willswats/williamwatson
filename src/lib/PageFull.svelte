@@ -12,6 +12,6 @@
 	}
 
 	section {
-		margin: 1rem;
+		margin: var(--margin, '1rem');
 	}
 </style>

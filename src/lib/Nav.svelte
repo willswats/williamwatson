@@ -8,13 +8,13 @@
 	};
 </script>
 
-<nav>
-	<button
-		class="nav-overlay"
-		class:nav-overlay-enabled={navMobileActive}
-		on:click={toggleNavMobile}
-	/>
+<button
+	class="nav-overlay"
+	class:nav-overlay-enabled={navMobileActive}
+	on:click={toggleNavMobile}
+/>
 
+<nav>
 	<a class="nav-logo" href="https://williamwatson.dev"><span>williamwatson.dev</span></a>
 	<button class="nav-menu" class:nav-menu-enabled={navMobileActive} on:click={toggleNavMobile}>
 		<a href="/" class:nav-menu-a-enabled={$page.url.pathname == '/'}>Home</a>
@@ -32,7 +32,7 @@
 	nav {
 		position: fixed;
 		top: 0;
-		z-index: 3;
+		z-index: 1;
 		display: flex;
 		width: 100%;
 		height: 4rem;
@@ -67,7 +67,7 @@
 		justify-content: center;
 		align-items: center;
 		padding: 1rem;
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 		border-left: 1px solid #4a4a4a;
 		transition: background-color 0.1s;
 	}
@@ -96,7 +96,6 @@
 			position: fixed;
 			top: -10000px;
 			width: 100%;
-			z-index: 2;
 		}
 
 		.nav-menu-enabled {
@@ -135,7 +134,6 @@
 			left: 0;
 			right: 0;
 			bottom: 0;
-			z-index: 1;
 			background-color: rgba(0, 0, 0, 0.5);
 		}
 
