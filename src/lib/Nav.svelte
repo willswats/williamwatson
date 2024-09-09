@@ -84,6 +84,17 @@
 		display: none;
 	}
 
+	.nav-overlay {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		top: -10000px;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
 	@media screen and (min-width: 768px) {
 		.nav-menu {
 			margin-right: 4rem; /* Account for NavSocial */
@@ -124,17 +135,6 @@
 
 		nav img:hover {
 			background-color: #3a3a3a;
-		}
-
-		.nav-overlay {
-			position: fixed;
-			width: 100%;
-			height: 100%;
-			top: -10000px;
-			left: 0;
-			right: 0;
-			bottom: 0;
-			background-color: rgba(0, 0, 0, 0.5);
 		}
 
 		.nav-overlay-enabled {
