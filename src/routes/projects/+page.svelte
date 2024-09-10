@@ -26,13 +26,6 @@
 			--background-color="#10161d"
 		/>
 		<ProjectCard
-			title="Astrocats"
-			description="A Unity Asteroids clone, but with cats."
-			hrefProject="https://willswats.itch.io/astrocats"
-			hrefRepository="https://github.com/willswats/astrocats"
-			--background-color="#000"
-		/>
-		<ProjectCard
 			title="React Pomodoro"
 			description="A pomodoro timer."
 			hrefProject="https://react-pomodoro-willswats.vercel.app"
@@ -46,6 +39,13 @@
 			hrefRepository="https://github.com/willswats/react-calculator"
 			--background-color="#2b2b2b"
 			--background-image="linear-gradient(#dc8c00, #2b2b2b)"
+		/>
+		<ProjectCard
+			title="Astrocats"
+			description="A Unity Asteroids clone, but with cats."
+			hrefProject="https://willswats.itch.io/astrocats"
+			hrefRepository="https://github.com/willswats/astrocats"
+			--background-color="#000"
 		/>
 		<ProjectCard
 			title="williamwatson.dev"
