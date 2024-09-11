@@ -15,12 +15,16 @@
 	}
 
 	section {
-		margin: 1rem;
+		margin: 2rem;
 	}
 
 	@media screen and (max-width: 768px) {
 		main {
 			height: calc(100vh - 8rem); /* Account for Nav and NavSocial */
+		}
+
+		section {
+			margin: 1rem;
 		}
 	}
 </style>

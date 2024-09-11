@@ -12,12 +12,12 @@
 	}
 
 	section {
-		margin: var(--margin, '1rem');
+		margin: 2rem;
 	}
 
 	@media screen and (max-width: 768px) {
 		section {
-			margin: var(--margin-breakpoint, '1rem');
+			margin: 1rem;
 		}
 	}
 </style>
