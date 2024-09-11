@@ -23,6 +23,8 @@
 		text-align: center;
 		height: 25rem;
 		border: 1px solid #4a4a4a;
+		background-color: var(--background-color, '#000');
+		background-image: var(--background-image, '');
 	}
 
 	figure figcaption {
@@ -31,8 +33,7 @@
 		justify-content: center;
 		align-items: center;
 		height: 100%;
-		background-color: var(--background-color, '#000');
-		background-image: var(--background-image, '');
+		margin: 0 1rem;
 	}
 
 	figure figcaption h2 {

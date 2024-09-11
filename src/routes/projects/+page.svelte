@@ -13,28 +13,28 @@
 	<section>
 		<ProjectCard
 			title="Review Charter"
-			description="Visualise AniList data in multiple charts."
+			description="A Next.js application for viewing user data from the GraphQL AniList API, in charts created with Chart.js."
 			hrefProject="https://review-charter.vercel.app/"
 			hrefRepository="https://github.com/willswats/review-charter"
 			--background-color="#0b1622"
 		/>
 		<ProjectCard
 			title="React Weather"
-			description="A weather application."
+			description="A weather application built with React and the OpenWeather API."
 			hrefProject="https://react-weather-willswats.vercel.app"
 			hrefRepository="https://github.com/willswats/react-weather"
 			--background-color="#10161d"
 		/>
 		<ProjectCard
 			title="React Pomodoro"
-			description="A pomodoro timer."
+			description="A pomodoro timer built with React and React Redux."
 			hrefProject="https://react-pomodoro-willswats.vercel.app"
 			hrefRepository="https://github.com/willswats/react-pomodoro"
 			--background-color="#7e201d"
 		/>
 		<ProjectCard
 			title="React Calculator"
-			description="A calculator application."
+			description="A calculator application built with React."
 			hrefProject="https://react-calculator-willswats.vercel.app"
 			hrefRepository="https://github.com/willswats/react-calculator"
 			--background-color="#2b2b2b"
