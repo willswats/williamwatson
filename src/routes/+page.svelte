@@ -10,7 +10,7 @@
 	<section class="home-card">
 		<section class="home-card-content">
 			<h1>William Watson</h1>
-			<h2>Web Developer</h2>
+			<h2>Software Engineering Student</h2>
 		</section>
 		<section class="home-card-anchors">
 			<a href="/about">About </a>
@@ -44,7 +44,7 @@
 	}
 
 	.home-card-content h2 {
-		font-size: 3rem;
+		font-size: 2.5rem;
 	}
 
 	.home-card-anchors {
