@@ -10,7 +10,7 @@
 <PageCentre>
 	<PageH1>Contact</PageH1>
 	<section>
-		<p>Email: <a href="mailto:william@williamwatson.dev">william@williamwatson.dev</a></p>
+		<p>Email: <a href="mailto:williamstuwatson@gmail.com">williamstuwatson@gmail.com</a></p>
 		<p>
 			Matrix: <a
 				target="_blank"
