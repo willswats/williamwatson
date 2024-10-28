@@ -38,6 +38,7 @@
 
 	figure figcaption h2 {
 		font-size: 2rem;
+		text-decoration: underline;
 	}
 
 	figure figcaption p {

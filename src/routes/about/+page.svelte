@@ -14,11 +14,9 @@
 			<img alt="GitHub" src="png/ProfileWW.png" />
 			<figcaption>
 				<p>
-					I'm currently a student at the University of Portsmouth studying Software Engineering.
-					I've built projects in my free time, as well as for Work Experience, College and
-					University. You can view some of these projects on the <a href="/projects"
-						>Projects page</a
-					>, and you can view all of them on my
+					I'm a second year student at the University of Portsmouth studying Software Engineering.
+					You can view some of my projects on the <a href="/projects">Projects page</a>, and you can
+					view all of them on my
 					<a
 						target="_blank"
 						rel="noopener noreferrer"
@@ -63,7 +61,7 @@
 
 	img {
 		float: left;
-		width: 12rem;
+		width: 8rem;
 		border: 1px solid #4a4a4a;
 		margin-right: 1rem;
 	}
@@ -71,16 +69,6 @@
 	@media screen and (max-width: 1000px) {
 		section {
 			width: 100%;
-		}
-
-		img {
-			width: 10rem;
-		}
-	}
-
-	@media screen and (max-width: 768px) {
-		img {
-			width: 8rem;
 		}
 	}
 </style>

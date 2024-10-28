@@ -8,6 +8,7 @@
 		align-items: center;
 		text-align: center;
 		font-size: 3rem;
+		text-decoration: underline;
 		width: 100%;
 		background-color: #2a2a2a;
 		border: 1px solid #4a4a4a;

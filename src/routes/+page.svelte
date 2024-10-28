@@ -10,7 +10,7 @@
 	<section class="home-card">
 		<section class="home-card-content">
 			<h1>William Watson</h1>
-			<h2>Software Engineering Student</h2>
+			<h2>Software Engineering Student at the University of Portsmouth</h2>
 		</section>
 		<section class="home-card-anchors">
 			<a href="/about">About </a>
@@ -31,6 +31,7 @@
 		flex-direction: column;
 		background-color: #2a2a2a;
 		border: 1px solid #4a4a4a;
+		max-width: 40rem;
 	}
 
 	.home-card-content {
@@ -41,10 +42,11 @@
 
 	.home-card-content h1 {
 		font-size: 4rem;
+		text-decoration: underline;
 	}
 
 	.home-card-content h2 {
-		font-size: 2.5rem;
+		font-size: 1.5rem;
 	}
 
 	.home-card-anchors {
@@ -79,10 +81,6 @@
 
 		.home-card-content h1 {
 			font-size: 3rem;
-		}
-
-		.home-card-content h2 {
-			font-size: 2rem;
 		}
 	}
 </style>

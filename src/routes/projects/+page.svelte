@@ -8,7 +8,7 @@
 	<title>William Watson | Projects</title>
 </svelte:head>
 
-<PageFull --margin="1rem 2rem" --margin-breakpoint="1rem">
+<PageFull>
 	<PageH1 --margin-bottom="1rem">Projects</PageH1>
 	<section>
 		<ProjectCard
