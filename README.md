@@ -1,6 +1,6 @@
 # williamwatson
 
-My portfolio website.
+My portfolio website built with SvelteKit.
 
 [williamwatson.dev](https://williamwatson.dev/)
 
