@@ -10,7 +10,7 @@
 	<section class="home-card">
 		<section class="home-card-content">
 			<h1>William Watson</h1>
-			<h2>Software Engineering Student at the University of Portsmouth</h2>
+			<p>Software Engineering Student at the University of Portsmouth</p>
 		</section>
 		<section class="home-card-anchors">
 			<a href="/about">About </a>
@@ -45,7 +45,7 @@
 		text-decoration: underline;
 	}
 
-	.home-card-content h2 {
+	.home-card-content p {
 		font-size: 1.5rem;
 	}
 
