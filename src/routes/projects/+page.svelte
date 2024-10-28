@@ -42,7 +42,7 @@
 		/>
 		<ProjectCard
 			title="Astrocats"
-			description="A Unity Asteroids clone, but with cats."
+			description="An asteroids clone built with the Unity Game Engine, featuring new additions to the gameplay."
 			hrefProject="https://willswats.itch.io/astrocats"
 			hrefRepository="https://github.com/willswats/astrocats"
 			--background-color="#000"
