@@ -49,9 +49,9 @@
 		/>
 		<ProjectCard
 			title="williamwatson.dev"
-			description="My portfolio website (this website)."
+			description="My portfolio website (this website) built with SvelteKit."
 			hrefProject="https://williamwatson.dev"
-			hrefRepository="https://github.com/willswats/williamwatson-dev"
+			hrefRepository="https://github.com/willswats/williamwatson"
 			--background-color="#1a1a1a"
 		/>
 	</section>
