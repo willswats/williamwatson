@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 
 	let navMobileActive: boolean = false;
 
@@ -11,19 +11,20 @@
 <button
 	class="nav-overlay"
 	class:nav-overlay-enabled={navMobileActive}
-	on:click={toggleNavMobile}
-/>
+	onclick={toggleNavMobile}
+	aria-label="Nav overlay"
+></button>
 
 <nav>
 	<a class="nav-logo" href="https://williamwatson.dev"><span>williamwatson.dev</span></a>
-	<button class="nav-menu" class:nav-menu-enabled={navMobileActive} on:click={toggleNavMobile}>
-		<a href="/" class:nav-menu-a-enabled={$page.url.pathname == '/'}>Home</a>
-		<a href="/about" class:nav-menu-a-enabled={$page.url.pathname == '/about'}>About</a>
-		<a href="/projects" class:nav-menu-a-enabled={$page.url.pathname == '/projects'}>Projects</a>
-		<a href="/contact" class:nav-menu-a-enabled={$page.url.pathname == '/contact'}>Contact</a>
+	<button class="nav-menu" class:nav-menu-enabled={navMobileActive} onclick={toggleNavMobile}>
+		<a href="/" class:nav-menu-a-enabled={page.url.pathname == '/'}>Home</a>
+		<a href="/about" class:nav-menu-a-enabled={page.url.pathname == '/about'}>About</a>
+		<a href="/projects" class:nav-menu-a-enabled={page.url.pathname == '/projects'}>Projects</a>
+		<a href="/contact" class:nav-menu-a-enabled={page.url.pathname == '/contact'}>Contact</a>
 	</button>
 
-	<button on:click={toggleNavMobile}>
+	<button onclick={toggleNavMobile}>
 		<img alt="Burger Menu" src="svg/menu.svg" />
 	</button>
 </nav>
