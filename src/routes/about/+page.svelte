@@ -14,7 +14,7 @@
 			<img alt="GitHub" src="png/ProfileWW.png" />
 			<figcaption>
 				<p>
-					I'm a second year student at the University of Portsmouth studying Software Engineering.
+					I'm a third year student at the University of Portsmouth studying Software Engineering.
 					You can view some of my projects on the <a href="/projects">Projects page</a>, and you can
 					view all of them on my
 					<a
