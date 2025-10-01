@@ -2,8 +2,6 @@
 
 My portfolio website built with SvelteKit.
 
-[williamwatson.dev](https://williamwatson.dev/)
-
 ## Table of Contents
 
 [Acknowledgements](#acknowledgements)
