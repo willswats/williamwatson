@@ -14,28 +14,28 @@
 		<ProjectCard
 			title="Review Charter"
 			description="A Next.js application for viewing user data from the GraphQL AniList API, in charts created with Chart.js."
-			hrefProject="https://review-charter.vercel.app/"
+			hrefProject="https://review-charter.netlify.app/"
 			hrefRepository="https://github.com/willswats/review-charter"
 			--background-color="#0b1622"
 		/>
 		<ProjectCard
 			title="React Weather"
 			description="A weather application built with React and the OpenWeather API."
-			hrefProject="https://react-weather-willswats.vercel.app"
+			hrefProject="https://react-weather-willswats.netlify.app"
 			hrefRepository="https://github.com/willswats/react-weather"
 			--background-color="#10161d"
 		/>
 		<ProjectCard
 			title="React Pomodoro"
 			description="A pomodoro timer built with React and React Redux."
-			hrefProject="https://react-pomodoro-willswats.vercel.app"
+			hrefProject="https://react-pomodoro-willswats.netlify.app"
 			hrefRepository="https://github.com/willswats/react-pomodoro"
 			--background-color="#7e201d"
 		/>
 		<ProjectCard
 			title="React Calculator"
 			description="A calculator application built with React."
-			hrefProject="https://react-calculator-willswats.vercel.app"
+			hrefProject="https://react-calculator-willswats.netlify.app"
 			hrefRepository="https://github.com/willswats/react-calculator"
 			--background-color="#2b2b2b"
 			--background-image="linear-gradient(#dc8c00, #2b2b2b)"
@@ -67,7 +67,7 @@
 		<ProjectCard
 			title="The Stuffed Potato"
 			description=" An example website for a takeaway restaurant."
-			hrefProject="https://the-stuffed-potato.vercel.app/"
+			hrefProject="https://the-stuffed-potato.netlify.app/"
 			hrefRepository="https://github.com/willswats/the-stuffed-potato"
 			--background-color="rgba(0,0,0,0.5)"
 		/>
