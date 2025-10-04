@@ -10,10 +10,10 @@ importers:
     devDependencies:
       '@sveltejs/adapter-auto':
         specifier: ^6.0.0
-        version: 6.1.1(@sveltejs/kit@2.43.5(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.6)(vite@6.3.6))(svelte@5.39.6)(vite@6.3.6))
+        version: 6.1.1(@sveltejs/kit@2.43.8(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.6)(vite@6.3.6))(svelte@5.39.6)(vite@6.3.6))
       '@sveltejs/kit':
         specifier: ^2.16.1
-        version: 2.43.5(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.6)(vite@6.3.6))(svelte@5.39.6)(vite@6.3.6)
+        version: 2.43.8(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.6)(vite@6.3.6))(svelte@5.39.6)(vite@6.3.6)
       '@sveltejs/vite-plugin-svelte':
         specifier: ^5.0.3
         version: 5.1.1(svelte@5.39.6)(vite@6.3.6)
@@ -420,8 +420,8 @@ packages:
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
-  '@sveltejs/kit@2.43.5':
-    resolution: {integrity: sha512-44Mm5csR4mesKx2Eyhtk8UVrLJ4c04BT2wMTfYGKJMOkUqpHP5KLL2DPV0hXUA4t4+T3ZYe0aBygd42lVYv2cA==}
+  '@sveltejs/kit@2.43.8':
+    resolution: {integrity: sha512-z21dG8W4g6XtAnK8bMpaSahtPOV6JVhghhco1+GR4H39XEgIxrjIpRoT1Js84c7TmhBzbTkVpZVVPFNNPFsXkQ==}
     engines: {node: '>=18.13'}
     hasBin: true
     peerDependencies:
@@ -1393,11 +1393,11 @@ snapshots:
     dependencies:
       acorn: 8.15.0
 
-  '@sveltejs/adapter-auto@6.1.1(@sveltejs/kit@2.43.5(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.6)(vite@6.3.6))(svelte@5.39.6)(vite@6.3.6))':
+  '@sveltejs/adapter-auto@6.1.1(@sveltejs/kit@2.43.8(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.6)(vite@6.3.6))(svelte@5.39.6)(vite@6.3.6))':
     dependencies:
-      '@sveltejs/kit': 2.43.5(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.6)(vite@6.3.6))(svelte@5.39.6)(vite@6.3.6)
+      '@sveltejs/kit': 2.43.8(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.6)(vite@6.3.6))(svelte@5.39.6)(vite@6.3.6)
 
-  '@sveltejs/kit@2.43.5(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.6)(vite@6.3.6))(svelte@5.39.6)(vite@6.3.6)':
+  '@sveltejs/kit@2.43.8(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.39.6)(vite@6.3.6))(svelte@5.39.6)(vite@6.3.6)':
     dependencies:
       '@standard-schema/spec': 1.0.0
       '@sveltejs/acorn-typescript': 1.0.6(acorn@8.15.0)
