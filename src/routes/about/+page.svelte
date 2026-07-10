@@ -14,9 +14,10 @@
 			<img alt="GitHub" src="png/ProfileWW.png" />
 			<figcaption>
 				<p>
-					I'm a third year student at the University of Portsmouth studying Software Engineering.
-					You can view some of my projects on the <a href="/projects">Projects page</a>, and you can
-					view all of them on my
+					I'm a University of Portsmouth graduate with a First-Class Honours in Software
+					Engineering. Eager to apply my skills in a professional environment. You can view some of
+					my projects on the <a href="/projects">Projects page</a>, and you can view all of them on
+					my
 					<a
 						target="_blank"
 						rel="noopener noreferrer"
@@ -61,7 +62,7 @@
 
 	img {
 		float: left;
-		width: 8rem;
+		width: 10rem;
 		border: 1px solid #4a4a4a;
 		margin-right: 1rem;
 	}

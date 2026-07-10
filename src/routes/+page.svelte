@@ -10,7 +10,7 @@
 	<section class="home-card">
 		<section class="home-card-content">
 			<h1>William Watson</h1>
-			<p>Software Engineering Student at the University of Portsmouth</p>
+			<p>Software Engineering Graduate (First-Class, University of Portsmouth)</p>
 		</section>
 		<section class="home-card-anchors">
 			<a href="/about">About </a>
