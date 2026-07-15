@@ -1,5 +1,5 @@
 <script>
-	import PageCentre from '$src/lib/PageCentre.svelte';
+	import PageCentre from '$lib/components/PageCentre.svelte';
 </script>
 
 <svelte:head>

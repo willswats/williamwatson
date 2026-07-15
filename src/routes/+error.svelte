@@ -1,7 +1,7 @@
 <script>
 	import { page } from '$app/state';
-	import PageH1 from '$lib/PageH1.svelte';
-	import PageCentre from '$lib/PageCentre.svelte';
+	import PageH1 from '$lib/components/PageH1.svelte';
+	import PageCentre from '$lib/components/PageCentre.svelte';
 </script>
 
 <svelte:head>

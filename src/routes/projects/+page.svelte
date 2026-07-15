@@ -1,7 +1,7 @@
 <script lang="ts">
-	import PageFull from '$src/lib/PageFull.svelte';
-	import PageH1 from '$lib/PageH1.svelte';
-	import ProjectCard from '$lib/ProjectCard.svelte';
+	import PageFull from '$lib/components/PageFull.svelte';
+	import PageH1 from '$lib/components/PageH1.svelte';
+	import ProjectCard from '$lib/components/ProjectCard.svelte';
 </script>
 
 <svelte:head>
@@ -11,6 +11,13 @@
 <PageFull --margin="1rem 2rem" --margin-breakpoint="1rem">
 	<PageH1 --margin-bottom="1rem">Projects</PageH1>
 	<section>
+		<ProjectCard
+			title="Peer Talk"
+			description="A web app for peer-to-peer text and voice communication, featuring collaborative apps that can be used whilst in a call."
+			hrefProject="https://peer-talk.onrender.com/"
+			hrefRepository="https://github.com/willswats/peer-talk"
+			--background-color="#1e1e2e"
+		/>
 		<ProjectCard
 			title="Review Charter"
 			description="A Next.js application for viewing user data from the GraphQL AniList API, in charts created with Chart.js."

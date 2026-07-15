@@ -1,6 +1,6 @@
 <script>
-	import PageCentre from '$src/lib/PageCentre.svelte';
-	import PageH1 from '$lib/PageH1.svelte';
+	import PageCentre from '$lib/components/PageCentre.svelte';
+	import PageH1 from '$lib/components/PageH1.svelte';
 </script>
 
 <svelte:head>

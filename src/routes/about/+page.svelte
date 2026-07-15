@@ -1,6 +1,6 @@
 <script>
-	import PageCentre from '$src/lib/PageCentre.svelte';
-	import PageH1 from '$lib/PageH1.svelte';
+	import PageCentre from '$lib/components/PageCentre.svelte';
+	import PageH1 from '$lib/components/PageH1.svelte';
 </script>
 
 <svelte:head>
@@ -15,9 +15,8 @@
 			<figcaption>
 				<p>
 					I'm a University of Portsmouth graduate with a First-Class Honours in Software
-					Engineering. Eager to apply my skills in a professional environment. You can view some of
-					my projects on the <a href="/projects">Projects page</a>, and you can view all of them on
-					my
+					Engineering. You can view some of my projects on the <a href="/projects">Projects page</a
+					>, and you can view all of them on my
 					<a
 						target="_blank"
 						rel="noopener noreferrer"
