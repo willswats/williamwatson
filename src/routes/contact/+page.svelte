@@ -41,11 +41,7 @@
 	}
 
 	section a {
-		color: rgba(255, 165, 0, 1);
+		color: var(--color-love);
 		transition: color 0.1s;
-	}
-
-	section a:hover {
-		color: rgba(255, 165, 0, 0.8);
 	}
 </style>
