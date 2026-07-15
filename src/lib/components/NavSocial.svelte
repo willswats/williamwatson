@@ -2,8 +2,18 @@
 	<a target="_blank" rel="noopener noreferrer" href="https://github.com/willswats">
 		<img alt="GitHub" src="svg/github.svg" />
 	</a>
+	<a target="_blank" rel="noopener noreferrer" href="https://codeberg.org/willswats">
+		<img alt="Codeberg" src="svg/codeberg.svg" />
+	</a>
 	<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/willswats/">
 		<img alt="LinkedIn" src="svg/linkedin.svg" />
+	</a>
+	<a
+		target="_blank"
+		rel="noopener noreferrer"
+		href="https://drive.google.com/file/d/1Vl1-7_JHQzl3BeTO-okZSHXxZaVd8b_E/view?usp=sharing"
+	>
+		<img alt="CV" src="svg/cv.svg" />
 	</a>
 </nav>
 
