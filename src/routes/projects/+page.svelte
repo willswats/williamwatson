@@ -16,7 +16,7 @@
 			description="A web app for peer-to-peer text and voice communication, featuring collaborative apps that can be used whilst in a call."
 			hrefProject="https://peer-talk.onrender.com/"
 			hrefRepository="https://github.com/willswats/peer-talk"
-			--background-color="#1e1e2e"
+			--background-color="#181825"
 		/>
 		<ProjectCard
 			title="Review Charter"
@@ -104,12 +104,8 @@
 	}
 
 	footer a {
-		color: rgba(255, 165, 0, 1);
+		color: var(--color-love);
 		transition: color 0.1s;
-	}
-
-	footer a:hover {
-		color: rgba(255, 165, 0, 0.8);
 	}
 
 	@media screen and (max-width: 1000px) {

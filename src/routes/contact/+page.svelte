@@ -8,7 +8,7 @@
 </svelte:head>
 
 <PageCentre>
-	<PageH1>Contact</PageH1>
+	<PageH1 --margin-bottom="1rem">Contact</PageH1>
 	<section>
 		<p>Email: <a href="mailto:williamstuwatson@gmail.com">williamstuwatson@gmail.com</a></p>
 		<p>
@@ -30,9 +30,9 @@
 	section {
 		display: flex;
 		flex-direction: column;
-		background-color: #2a2a2a;
-		border: 1px solid #4a4a4a;
-		border-top: none;
+		background-color: var(--color-surface);
+		border: 1px solid var(--color-muted);
+		border-radius: var(--border-radius-large);
 		padding: 1rem;
 	}
 

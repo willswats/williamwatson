@@ -10,8 +10,9 @@
 		font-size: 3rem;
 		text-decoration: underline;
 		width: 100%;
-		background-color: #2a2a2a;
-		border: 1px solid #4a4a4a;
+		background-color: var(--color-surface);
+		border: 1px solid var(--color-muted);
+		border-radius: var(--border-radius-large);
 		padding: 1rem;
 		margin-top: var(--margin-top, '');
 		margin-bottom: var(--margin-bottom, '');

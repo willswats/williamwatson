@@ -26,9 +26,11 @@
 		flex-direction: column;
 		text-align: center;
 		height: 25rem;
-		border: 1px solid #4a4a4a;
+		border: 1px solid var(--color-muted);
 		background-color: var(--background-color, '#000');
 		background-image: var(--background-image, '');
+		border-radius: var(--border-radius-large);
+		overflow: hidden;
 	}
 
 	figure figcaption {
@@ -56,19 +58,19 @@
 	figure section a {
 		text-align: center;
 		width: 100%;
-		color: #fff;
-		background-color: #2a2a2a;
-		border-top: 1px solid #4a4a4a;
+		color: var(--color-text);
+		background-color: var(--color-surface);
+		border-top: 1px solid var(--color-muted);
 		padding: 0.5rem;
 		transition: background-color 0.1s;
 		font-size: 1rem;
 	}
 
 	figure section a:hover {
-		background-color: #3a3a3a;
+		background-color: var(--color-highlight-med);
 	}
 
 	figure section a:nth-of-type(1) {
-		border-right: 1px solid #4a4a4a;
+		border-right: 1px solid var(--color-muted);
 	}
 </style>

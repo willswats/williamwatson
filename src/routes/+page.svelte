@@ -29,9 +29,11 @@
 	.home-card {
 		display: flex;
 		flex-direction: column;
-		background-color: #2a2a2a;
-		border: 1px solid #4a4a4a;
+		background-color: var(--color-surface);
+		border: 1px solid var(--color-muted);
+		border-radius: var(--border-radius-large);
 		max-width: 40rem;
+		overflow: hidden;
 	}
 
 	.home-card-content {
@@ -43,6 +45,7 @@
 	.home-card-content h1 {
 		font-size: 4rem;
 		text-decoration: underline;
+		color: var(--color-rose);
 	}
 
 	.home-card-content p {
@@ -58,12 +61,12 @@
 		text-align: center;
 		padding: 1rem;
 		transition: background-color 0.1s;
-		border-top: 1px solid #4a4a4a;
+		border-top: 1px solid var(--color-muted);
 	}
 
 	.home-card-anchors a {
 		font-size: 1.2rem;
-		border-right: 1px solid #4a4a4a;
+		border-right: 1px solid var(--color-muted);
 	}
 
 	.home-card-anchors a:last-child {
@@ -71,7 +74,7 @@
 	}
 
 	.home-card-anchors a:hover {
-		background-color: #4a4a4a;
+		background-color: var(--color-highlight-med);
 	}
 
 	@media screen and (max-width: 768px) {

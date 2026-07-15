@@ -9,9 +9,9 @@
 
 <PageCentre>
 	<section>
-		<PageH1>About</PageH1>
+		<PageH1 --margin-bottom="1rem">About</PageH1>
 		<figure>
-			<img alt="GitHub" src="png/ProfileWW.png" />
+			<img alt="Myself" src="png/ProfileMe.jpg" />
 			<figcaption>
 				<p>
 					I'm a University of Portsmouth graduate with a First-Class Honours in Software
@@ -40,10 +40,16 @@
 	}
 
 	figure {
-		background-color: #2a2a2a;
-		border: 1px solid #4a4a4a;
-		border-top: none;
+		display: flex;
+		background-color: var(--color-surface);
+		border: 1px solid var(--color-muted);
+		border-radius: var(--border-radius-large);
 		padding: 1rem;
+	}
+
+	figcaption {
+		display: flex;
+		align-items: center;
 	}
 
 	figure p {
@@ -51,18 +57,15 @@
 	}
 
 	figure a {
-		color: rgba(255, 165, 0, 1);
+		color: var(--color-love);
 		transition: color 0.1s;
-	}
-
-	figure a:hover {
-		color: rgba(255, 165, 0, 0.8);
 	}
 
 	img {
 		float: left;
-		width: 10rem;
-		border: 1px solid #4a4a4a;
+		width: 12rem;
+		border: 1px solid var(--color-muted);
+		border-radius: var(--border-radius-large);
 		margin-right: 1rem;
 	}
 
