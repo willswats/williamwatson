@@ -8,6 +8,6 @@ My portfolio website built with SvelteKit.
 
 ## Acknowledgements
 
-The font is [Hack](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack).
-
-The SVGs are from [feather](https://github.com/feathericons/feather).
+- The font is [Hack](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack).
+- The SVGs are from [feather](https://github.com/feathericons/feather).
+- The colorscheme is [rosepine](https://rosepinetheme.com/palette).
