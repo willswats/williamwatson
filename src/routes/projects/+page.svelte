@@ -79,16 +79,6 @@
 			--background-color="rgba(0,0,0,0.5)"
 		/>
 	</section>
-	<footer slot="footer">
-		<p>
-			View more of my projects on
-			<a
-				target="_blank"
-				rel="noopener noreferrer"
-				href="https://github.com/willswats?tab=repositories">GitHub</a
-			>
-		</p>
-	</footer>
 </PageFull>
 
 <style>
@@ -96,16 +86,6 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 1rem;
-	}
-
-	footer {
-		display: flex;
-		justify-content: center;
-	}
-
-	footer a {
-		color: var(--color-love);
-		transition: color 0.1s;
 	}
 
 	@media screen and (max-width: 1000px) {
