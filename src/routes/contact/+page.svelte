@@ -44,4 +44,8 @@
 		color: var(--color-love);
 		transition: color 0.1s;
 	}
+
+	section a:hover {
+		text-decoration: underline;
+	}
 </style>

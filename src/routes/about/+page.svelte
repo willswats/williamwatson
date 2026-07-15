@@ -58,7 +58,10 @@
 
 	figure a {
 		color: var(--color-love);
-		transition: color 0.1s;
+	}
+
+	figure a:hover {
+		text-decoration: underline;
 	}
 
 	img {
