@@ -21,7 +21,6 @@
 		<a href="/" class:nav-menu-a-enabled={page.url.pathname == '/'}>Home</a>
 		<a href="/about" class:nav-menu-a-enabled={page.url.pathname == '/about'}>About</a>
 		<a href="/projects" class:nav-menu-a-enabled={page.url.pathname == '/projects'}>Projects</a>
-		<a href="/contact" class:nav-menu-a-enabled={page.url.pathname == '/contact'}>Contact</a>
 	</button>
 
 	<button onclick={toggleNavMobile}>

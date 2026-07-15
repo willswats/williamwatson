@@ -15,7 +15,6 @@
 		<section class="home-card-anchors">
 			<a href="/about">About </a>
 			<a href="/projects">Projects </a>
-			<a href="/contact">Contact </a>
 			<a
 				href="https://drive.google.com/file/d/1Vl1-7_JHQzl3BeTO-okZSHXxZaVd8b_E/view?usp=sharing"
 				target="_blank"

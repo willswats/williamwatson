@@ -26,8 +26,9 @@
 						href="https://drive.google.com/file/d/1Vl1-7_JHQzl3BeTO-okZSHXxZaVd8b_E/view?usp=sharing"
 						target="_blank"
 						rel="noopener noreferrer">CV</a
-					>. If you would like to contact me, you can find my details on the
-					<a href="/contact">Contact page</a>.
+					>. If you would like to contact me, you can send an email to
+					<a href="mailto:william@williamwatson.dev">william@williamwatson.dev</a>. Alternatively
+					you can find my other socials on the sidebar.
 				</p>
 			</figcaption>
 		</figure>
