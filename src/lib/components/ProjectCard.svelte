@@ -2,7 +2,7 @@
 	interface Props {
 		title: string;
 		description: string;
-		hrefProject: string;
+		hrefProject?: string;
 		hrefRepository: string;
 	}
 
@@ -15,7 +15,9 @@
 		<p>{description}</p>
 	</figcaption>
 	<section>
-		<a href={hrefProject} target="_blank" rel="noopener noreferrer">View Project</a>
+		{#if hrefProject}
+			<a href={hrefProject} target="_blank" rel="noopener noreferrer">View Project</a>
+		{/if}
 		<a href={hrefRepository} target="_blank" rel="noopener noreferrer">View Repo</a>
 	</section>
 </figure>

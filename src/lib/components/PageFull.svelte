@@ -15,7 +15,7 @@
 		margin: var(--margin, '');
 	}
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 1200px) {
 		section {
 			margin: var(--margin-breakpoint, '');
 		}

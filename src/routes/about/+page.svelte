@@ -73,7 +73,7 @@
 		margin-right: 1rem;
 	}
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1200px) {
 		section {
 			width: 100%;
 		}

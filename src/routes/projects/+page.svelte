@@ -8,7 +8,7 @@
 	<title>William Watson | Projects</title>
 </svelte:head>
 
-<PageFull --margin="1rem 2rem" --margin-breakpoint="1rem">
+<PageFull --margin="2rem 12rem" --margin-breakpoint="1rem">
 	<PageH1 --margin-bottom="1rem">Projects</PageH1>
 	<section>
 		<ProjectCard
@@ -61,8 +61,15 @@
 			hrefRepository="https://github.com/willswats/williamwatson"
 			--background-color="#1a1a1a"
 		/>
+		<ProjectCard
+			title="The Stuffed Potato"
+			description="An example website for a takeaway restaurant."
+			hrefProject="https://the-stuffed-potato.netlify.app/"
+			hrefRepository="https://github.com/willswats/the-stuffed-potato"
+			--background-color="rgba(0,0,0,0.5)"
+		/>
 	</section>
-	<PageH1 --margin-top="1rem" --margin-bottom="1rem">Smaller Projects</PageH1>
+	<PageH1 --margin-top="1rem" --margin-bottom="1rem">Side Projects</PageH1>
 	<section>
 		<ProjectCard
 			title="YouTube Alternative Switch"
@@ -72,11 +79,10 @@
 			--background-color="#7e201d"
 		/>
 		<ProjectCard
-			title="The Stuffed Potato"
-			description=" An example website for a takeaway restaurant."
-			hrefProject="https://the-stuffed-potato.netlify.app/"
-			hrefRepository="https://github.com/willswats/the-stuffed-potato"
-			--background-color="rgba(0,0,0,0.5)"
+			title="MPV YouTube Search"
+			description="An mpv (media player) script that uses the mpv console input to search YouTube or YouTube Music and add the results to the mpv playlist."
+			hrefRepository="https://github.com/willswats/mpv-youtube-search"
+			--background-color="#420042"
 		/>
 	</section>
 </PageFull>
@@ -88,7 +94,7 @@
 		gap: 1rem;
 	}
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1200px) {
 		section {
 			grid-template-columns: 1fr;
 		}
