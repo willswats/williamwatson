@@ -11,7 +11,7 @@
 	<section>
 		<PageH1 --margin-bottom="1rem">About</PageH1>
 		<figure>
-			<img alt="Myself" src="png/ProfileMe.jpg" />
+			<img alt="Myself" src="img/ProfileMe.jpg" />
 			<figcaption>
 				<p>
 					I'm a University of Portsmouth graduate with a First-Class Honours in Software

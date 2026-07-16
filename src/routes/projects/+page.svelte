@@ -1,7 +1,21 @@
 <script lang="ts">
 	import PageFull from '$lib/components/PageFull.svelte';
-	import PageH1 from '$lib/components/PageH1.svelte';
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
+	import { projects as projectsJson } from '$src/projects.json';
+
+	interface projects {
+		title: string;
+		description: string;
+		url: string | null;
+		git: string;
+		background: string;
+	}
+
+	const projects: projects[] = $state([]);
+
+	for (const project of projectsJson) {
+		projects.push({ ...project });
+	}
 </script>
 
 <svelte:head>
@@ -9,81 +23,16 @@
 </svelte:head>
 
 <PageFull --margin="2rem 12rem" --margin-breakpoint="1rem">
-	<PageH1 --margin-bottom="1rem">Projects</PageH1>
 	<section>
-		<ProjectCard
-			title="Peer Talk"
-			description="A web app for peer-to-peer text and voice communication, featuring collaborative apps that can be used whilst in a call."
-			hrefProject="https://peer-talk.onrender.com/"
-			hrefRepository="https://github.com/willswats/peer-talk"
-			--background-color="#181825"
-		/>
-		<ProjectCard
-			title="Review Charter"
-			description="A Next.js application for viewing user data from the GraphQL AniList API, in charts created with Chart.js."
-			hrefProject="https://review-charter.netlify.app/"
-			hrefRepository="https://github.com/willswats/review-charter"
-			--background-color="#0b1622"
-		/>
-		<ProjectCard
-			title="React Weather"
-			description="A weather application built with React and the OpenWeather API."
-			hrefProject="https://react-weather-willswats.netlify.app"
-			hrefRepository="https://github.com/willswats/react-weather"
-			--background-color="#10161d"
-		/>
-		<ProjectCard
-			title="React Pomodoro"
-			description="A pomodoro timer built with React and React Redux."
-			hrefProject="https://react-pomodoro-willswats.netlify.app"
-			hrefRepository="https://github.com/willswats/react-pomodoro"
-			--background-color="#7e201d"
-		/>
-		<ProjectCard
-			title="React Calculator"
-			description="A calculator application built with React."
-			hrefProject="https://react-calculator-willswats.netlify.app"
-			hrefRepository="https://github.com/willswats/react-calculator"
-			--background-color="#2b2b2b"
-			--background-image="linear-gradient(#dc8c00, #2b2b2b)"
-		/>
-		<ProjectCard
-			title="Astrocats"
-			description="An asteroids clone built with the Unity Game Engine, featuring new additions to the gameplay."
-			hrefProject="https://willswats.itch.io/astrocats"
-			hrefRepository="https://github.com/willswats/astrocats"
-			--background-color="#000"
-		/>
-		<ProjectCard
-			title="williamwatson.dev"
-			description="My portfolio website (this website) built with SvelteKit."
-			hrefProject="https://williamwatson.dev"
-			hrefRepository="https://github.com/willswats/williamwatson"
-			--background-color="#1a1a1a"
-		/>
-		<ProjectCard
-			title="The Stuffed Potato"
-			description="An example website for a takeaway restaurant."
-			hrefProject="https://the-stuffed-potato.netlify.app/"
-			hrefRepository="https://github.com/willswats/the-stuffed-potato"
-			--background-color="rgba(0,0,0,0.5)"
-		/>
-	</section>
-	<PageH1 --margin-top="1rem" --margin-bottom="1rem">Side Projects</PageH1>
-	<section>
-		<ProjectCard
-			title="YouTube Alternative Switch"
-			description="A Firefox extension for quickly switching videos between YouTube, Piped, Invidious and Chat Replay. "
-			hrefProject="https://addons.mozilla.org/en-US/firefox/addon/youtube-alternative-switch/"
-			hrefRepository="https://github.com/willswats/youtube-alternative-switch"
-			--background-color="#7e201d"
-		/>
-		<ProjectCard
-			title="MPV YouTube Search"
-			description="An mpv (media player) script that uses the mpv console input to search YouTube or YouTube Music and add the results to the mpv playlist."
-			hrefRepository="https://github.com/willswats/mpv-youtube-search"
-			--background-color="#420042"
-		/>
+		{#each projects as project (project.title)}
+			<ProjectCard
+				title={project.title}
+				description={project.description}
+				hrefProject={project.url}
+				hrefRepository={project.git}
+				background={project.background}
+			/>
+		{/each}
 	</section>
 </PageFull>
 

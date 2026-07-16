@@ -1,0 +1,60 @@
+{
+  "projects": [
+    {
+      "title": "Peer Talk",
+      "description": "A web app for peer-to-peer text and voice communication, featuring collaborative apps that can be used whilst in a call.",
+      "url": "https://peer-talk.onrender.com/",
+      "git": "https://github.com/willswats/peer-talk",
+      "background": "peer-talk.png"
+    },
+    {
+      "title": "Review Charter",
+      "description": "A Next.js application for viewing user data from the GraphQL AniList API, in charts created with Chart.js.",
+      "url": "https://review-charter.netlify.app/",
+      "git": "https://github.com/willswats/review-charter",
+      "background": "review-charter.png"
+    },
+    {
+      "title": "React Weather",
+      "description": "A weather application built with React and the OpenWeather API.",
+      "url": "https://react-weather-willswats.netlify.app",
+      "git": "https://github.com/willswats/react-weather",
+      "background": "react-weather.png"
+    },
+    {
+      "title": "React Pomodoro",
+      "description": "A pomodoro timer built with React and React Redux.",
+      "url": "https://react-pomodoro-willswats.netlify.app",
+      "git": "https://github.com/willswats/react-pomodoro",
+      "background": "react-pomodoro.png"
+    },
+    {
+      "title": "React Calculator",
+      "description": "A calculator application built with React.",
+      "url": "https://react-calculator-willswats.netlify.app",
+      "git": "https://github.com/willswats/react-calculator",
+      "background": "react-calculator.png"
+    },
+    {
+      "title": "Astrocats",
+      "description": "An asteroids clone built with the Unity Game Engine, featuring new additions to the gameplay.",
+      "url": "https://willswats.itch.io/astrocats",
+      "git": "https://github.com/willswats/astrocats",
+      "background": "astrocats.png"
+    },
+    {
+      "title": "YouTube Alternative Switch",
+      "description": "A Firefox extension for quickly switching videos between YouTube, Piped, Invidious and Chat Replay.",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/youtube-alternative-switch/",
+      "git": "https://github.com/willswats/youtube-alternative-switch",
+      "background": "youtube-alternative-switch.png"
+    },
+    {
+      "title": "MPV YouTube Search",
+      "description": "An mpv (media player) script that uses the mpv console input to search YouTube or YouTube Music and add the results to the mpv playlist.",
+      "url": null,
+      "git": "https://github.com/willswats/mpv-youtube-search",
+      "background": "mpv-youtube-search.png"
+    }
+  ]
+}

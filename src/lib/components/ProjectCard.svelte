@@ -2,20 +2,23 @@
 	interface Props {
 		title: string;
 		description: string;
-		hrefProject?: string;
+		hrefProject: string | null;
 		hrefRepository: string;
+		background: string;
 	}
 
-	let { title, description, hrefProject, hrefRepository }: Props = $props();
+	let { title, description, hrefProject, hrefRepository, background }: Props = $props();
 </script>
 
 <figure>
 	<figcaption>
 		<h2>{title}</h2>
 		<p>{description}</p>
+		<img alt="Project screenshot" src={`img/backgrounds/${background}`} />
+		<div class="overlay"></div>
 	</figcaption>
 	<section>
-		{#if hrefProject}
+		{#if hrefProject !== null}
 			<a href={hrefProject} target="_blank" rel="noopener noreferrer">View Project</a>
 		{/if}
 		<a href={hrefRepository} target="_blank" rel="noopener noreferrer">View Repo</a>
@@ -29,8 +32,6 @@
 		text-align: center;
 		height: 25rem;
 		border: 1px solid var(--color-muted);
-		background-color: var(--background-color, '#000');
-		background-image: var(--background-image, '');
 		border-radius: var(--border-radius-large);
 		overflow: hidden;
 	}
@@ -40,17 +41,43 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		width: 100%;
 		height: 100%;
-		margin: 0 1rem;
+		position: relative;
+		z-index: 1;
+	}
+
+	figcaption img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+		z-index: -1;
+	}
+
+	figcaption .overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.6);
+		z-index: 0;
 	}
 
 	figure figcaption h2 {
 		font-size: 2rem;
 		text-decoration: underline;
+		position: relative;
+		z-index: 1;
 	}
 
 	figure figcaption p {
 		font-size: 1.2rem;
+		position: relative;
+		z-index: 1;
 	}
 
 	figure section {
