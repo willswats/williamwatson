@@ -19,6 +19,7 @@
 
 <style>
 	nav {
+		z-index: 999;
 		position: fixed;
 		bottom: 0;
 		left: 0;
@@ -56,7 +57,6 @@
 		nav {
 			position: fixed;
 			left: 0;
-			z-index: 3;
 			flex-direction: column;
 			justify-content: end;
 			border-top: 0;
