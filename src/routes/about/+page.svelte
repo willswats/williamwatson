@@ -68,6 +68,7 @@
 	img {
 		float: left;
 		width: 12rem;
+		height: 12rem;
 		border: 1px solid var(--color-muted);
 		border-radius: var(--border-radius-large);
 		margin-right: 1rem;
@@ -76,6 +77,13 @@
 	@media screen and (max-width: 1200px) {
 		section {
 			width: 100%;
+		}
+	}
+
+	@media screen and (max-width: 768px) {
+		img {
+			width: 8rem;
+			height: 8rem;
 		}
 	}
 </style>
