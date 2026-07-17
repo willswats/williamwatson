@@ -15,8 +15,9 @@
 			<figcaption>
 				<p>
 					Hi, I'm William. I recently graduated from the University of Portsmouth with a First in
-					Software Engineering, where I discovered that my favourite challenges involve building
-					practical, user-focused applications.
+					Software Engineering, where I collaborated closely with teammates across multiple modules,
+					developing strong communication and project management skills, and built Peer Talk, a
+					WebRTC web app for peer-to-peer text and voice communication, as my final year project.
 				</p>
 
 				<p>
