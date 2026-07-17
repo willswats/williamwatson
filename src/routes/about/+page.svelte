@@ -14,21 +14,30 @@
 			<img alt="Myself" src="img/ProfileMe.jpg" />
 			<figcaption>
 				<p>
-					I'm a University of Portsmouth graduate with a First-Class Honours in Software
-					Engineering. You can view some of my projects on the <a href="/projects">Projects page</a
-					>, and you can view all of them on my
-					<a
-						target="_blank"
-						rel="noopener noreferrer"
-						href="https://github.com/willswats?tab=repositories">GitHub</a
-					>. If you would like to read more about me, you can read my
+					Hi, I'm William. I recently graduated from the University of Portsmouth with a First in
+					Software Engineering, where I discovered that my favourite challenges involve building
+					practical, user-focused applications.
+				</p>
+
+				<p>
+					Outside of coding, I'm an avid Brazilian Jiu-Jitsu practitioner and a boulderer working my
+					way up to V4s. I find that debugging code and solving climbing routes require the same
+					patience and problem-solving mindset.
+				</p>
+
+				<p>
+					I'm currently looking for my first graduate software engineering role. If you're hiring or
+					just want to connect, drop me an email at <a href="mailto:william@williamwatson.dev"
+						>william@williamwatson.dev</a
+					>, or connect with me on <a href="https://www.linkedin.com/in/willswats/">LinkedIn</a>. In
+					the meantime, feel free to browse my
+					<a href="/projects">projects</a>
+					or view my
 					<a
 						href="https://drive.google.com/file/d/1Vl1-7_JHQzl3BeTO-okZSHXxZaVd8b_E/view?usp=sharing"
 						target="_blank"
 						rel="noopener noreferrer">CV</a
-					>. If you would like to contact me, you can send an email to
-					<a href="mailto:william@williamwatson.dev">william@williamwatson.dev</a>. Alternatively
-					you can find my other socials on the sidebar.
+					>.
 				</p>
 			</figcaption>
 		</figure>
@@ -50,7 +59,11 @@
 
 	figcaption {
 		display: flex;
+		flex-direction: column;
 		align-items: center;
+	}
+	figcaption p {
+		margin-bottom: 1rem;
 	}
 
 	figure p {
