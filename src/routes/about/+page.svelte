@@ -53,18 +53,12 @@
 	}
 
 	figure {
-		display: flex;
 		background-color: var(--color-surface);
 		border: 1px solid var(--color-muted);
 		border-radius: var(--border-radius-large);
 		padding: 1rem;
 	}
 
-	figcaption {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
 	figcaption p {
 		margin-bottom: 1rem;
 	}
@@ -100,6 +94,10 @@
 		img {
 			width: 8rem;
 			height: 8rem;
+		}
+
+		figure p {
+			font-size: 1rem;
 		}
 	}
 </style>

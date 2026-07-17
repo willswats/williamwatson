@@ -12,4 +12,10 @@
 		margin-top: var(--margin-top, '');
 		margin-bottom: var(--margin-bottom, '');
 	}
+
+	@media screen and (max-width: 768px) {
+		h1 {
+			font-size: 2rem;
+		}
+	}
 </style>
