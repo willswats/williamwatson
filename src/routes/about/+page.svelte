@@ -30,8 +30,8 @@
 					I'm currently looking for my first graduate software engineering role. If you're hiring or
 					just want to connect, drop me an email at <a href="mailto:william@williamwatson.dev"
 						>william@williamwatson.dev</a
-					>, or connect with me on <a href="https://www.linkedin.com/in/willswats/">LinkedIn</a>. In
-					the meantime, feel free to browse my
+					>, or find me on <a href="https://www.linkedin.com/in/willswats/">LinkedIn</a>. In the
+					meantime, feel free to browse my
 					<a href="/projects">projects</a>
 					or view my
 					<a
