@@ -16,8 +16,10 @@
 				<p>
 					Hi, I'm William. I recently graduated from the University of Portsmouth with a First in
 					Software Engineering, where I collaborated closely with teammates across multiple modules,
-					developing strong communication and project management skills, and built Peer Talk, a
-					WebRTC web app for peer-to-peer text and voice communication, as my final year project.
+					developing strong communication and project management skills, and built <a
+						href="https://peer-talk.onrender.com/">Peer Talk</a
+					>, a WebRTC web app for peer-to-peer text and voice communication, as my final year
+					project.
 				</p>
 
 				<p>
