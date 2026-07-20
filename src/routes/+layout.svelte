@@ -30,11 +30,16 @@
 	}
 
 	:global {
+		@font-face {
+			font-family: 'JetBrainsMono-Regular';
+			src: url('fonts/JetBrainsMono-Regular.ttf');
+		}
+
 		* {
 			margin: 0;
 			padding: 0;
 			box-sizing: border-box;
-			font-family: Hack, monospace;
+			font-family: JetBrainsMono-Regular, sans-serif;
 			scroll-behavior: smooth;
 		}
 
