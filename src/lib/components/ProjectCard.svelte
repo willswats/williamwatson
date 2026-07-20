@@ -78,6 +78,7 @@
 		font-size: 1.2rem;
 		position: relative;
 		z-index: 1;
+		margin: 0 1rem;
 	}
 
 	figure section {
