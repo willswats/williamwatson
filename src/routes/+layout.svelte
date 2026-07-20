@@ -32,7 +32,7 @@
 	:global {
 		@font-face {
 			font-family: 'JetBrainsMono-Regular';
-			src: url('fonts/JetBrainsMono-Regular.ttf');
+			src: url('/fonts/JetBrains_Mono/JetBrainsMono-VariableFont_wght.ttf');
 		}
 
 		* {
