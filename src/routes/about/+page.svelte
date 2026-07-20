@@ -63,6 +63,10 @@
 		margin-bottom: 1rem;
 	}
 
+	figcaption p:last-child {
+		margin-bottom: 0;
+	}
+
 	figure p {
 		font-size: 1.2rem;
 	}
