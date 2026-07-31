@@ -1,19 +1,26 @@
+<script lang="ts">
+	import SvgGitHub from '$lib/assets/svg/github.svg';
+	import SvgCodeberg from '$lib/assets/svg/codeberg.svg';
+	import SvgLinkedIn from '$lib/assets/svg/linkedin.svg';
+	import SvgCv from '$lib/assets/svg/cv.svg';
+</script>
+
 <nav>
 	<a target="_blank" rel="noopener noreferrer" href="https://github.com/willswats">
-		<img alt="GitHub" src="svg/github.svg" />
+		<img alt="GitHub" src={SvgGitHub} />
 	</a>
 	<a target="_blank" rel="noopener noreferrer" href="https://codeberg.org/willswats">
-		<img alt="Codeberg" src="svg/codeberg.svg" />
+		<img alt="Codeberg" src={SvgCodeberg} />
 	</a>
 	<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/willswats/">
-		<img alt="LinkedIn" src="svg/linkedin.svg" />
+		<img alt="LinkedIn" src={SvgLinkedIn} />
 	</a>
 	<a
 		target="_blank"
 		rel="noopener noreferrer"
 		href="https://drive.google.com/file/d/1Vl1-7_JHQzl3BeTO-okZSHXxZaVd8b_E/view?usp=sharing"
 	>
-		<img alt="CV" src="svg/cv.svg" />
+		<img alt="CV" src={SvgCv} />
 	</a>
 </nav>
 
