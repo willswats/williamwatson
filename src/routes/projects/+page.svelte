@@ -11,16 +11,16 @@
 	import ImgYouTubeAlternativeSwitch from '$lib/assets/img/backgrounds/youtube-alternative-switch.png';
 	import ImgMpvYouTubeSearch from '$lib/assets/img/backgrounds/mpv-youtube-search.png';
 
-	const backgrounds = [
-		ImgPeerTalk,
-		ImgReviewCharter,
-		ImgReactWeather,
-		ImgReactPomodoro,
-		ImgReactCalculator,
-		ImgAstrocats,
-		ImgYouTubeAlternativeSwitch,
-		ImgMpvYouTubeSearch
-	] as string[];
+	// const backgrounds = [
+	// 	ImgPeerTalk,
+	// 	ImgReviewCharter,
+	// 	ImgReactWeather,
+	// 	ImgReactPomodoro,
+	// 	ImgReactCalculator,
+	// 	ImgAstrocats,
+	// 	ImgYouTubeAlternativeSwitch,
+	// 	ImgMpvYouTubeSearch
+	// ] as string[];
 
 	import { projects as projectsJson } from '@/projects.json';
 
@@ -50,7 +50,6 @@
 				description={project.description}
 				hrefProject={project.url}
 				hrefRepository={project.git}
-				background={backgrounds[index]}
 			/>
 		{/each}
 	</section>

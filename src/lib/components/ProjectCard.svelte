@@ -4,17 +4,23 @@
 		description: string;
 		hrefProject: string | null;
 		hrefRepository: string;
-		background: string;
+		// background: string;
 	}
 
-	let { title, description, hrefProject, hrefRepository, background }: Props = $props();
+	let {
+		title,
+		description,
+		hrefProject,
+		hrefRepository
+		// background
+	}: Props = $props();
 </script>
 
 <figure>
 	<figcaption>
 		<h2>{title}</h2>
 		<p>{description}</p>
-		<enhanced:img alt="Project screenshot" src={background} />
+		<!-- <enhanced:img alt="Project screenshot" src={background} /> -->
 		<div class="overlay"></div>
 	</figcaption>
 	<section>
