@@ -12,7 +12,7 @@
 	<section>
 		<PageH1 --margin-bottom="1rem">About</PageH1>
 		<figure>
-			<enhanced:img alt="Myself" src={ImgProfileMe} />
+			<img alt="Myself" src={ImgProfileMe} />
 			<figcaption>
 				<p>
 					Hi, I'm William. I recently graduated from the University of Portsmouth with a First in
