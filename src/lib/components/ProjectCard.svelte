@@ -14,7 +14,7 @@
 	<figcaption>
 		<h2>{title}</h2>
 		<p>{description}</p>
-		<enhanced:img alt="Project screenshot" src={`img/backgrounds/${background}`} />
+		<enhanced:img alt="Project screenshot" src={background} />
 		<div class="overlay"></div>
 	</figcaption>
 	<section>

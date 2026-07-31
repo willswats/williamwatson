@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/state';
+	import SvgMenu from '$lib/assets/svg/menu.svg';
 
 	let navMobileActive: boolean = false;
 
@@ -24,7 +25,7 @@
 	</button>
 
 	<button onclick={toggleNavMobile}>
-		<img alt="Burger Menu" src="svg/menu.svg" />
+		<img alt="Burger Menu" src={SvgMenu} />
 	</button>
 </nav>
 
