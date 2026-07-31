@@ -22,7 +22,7 @@
 		ImgMpvYouTubeSearch
 	] as string[];
 
-	import { projects as projectsJson } from '$src/projects.json';
+	import { projects as projectsJson } from '@/projects.json';
 
 	interface projects {
 		title: string;
