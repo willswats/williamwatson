@@ -1,27 +1,6 @@
 <script lang="ts">
 	import PageFull from '$lib/components/PageFull.svelte';
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
-
-	import ImgPeerTalk from '$lib/assets/img/backgrounds/peer-talk.png';
-	import ImgReviewCharter from '$lib/assets/img/backgrounds/review-charter.png';
-	import ImgReactWeather from '$lib/assets/img/backgrounds/react-weather.png';
-	import ImgReactPomodoro from '$lib/assets/img/backgrounds/react-pomodoro.png';
-	import ImgReactCalculator from '$lib/assets/img/backgrounds/react-calculator.png';
-	import ImgAstrocats from '$lib/assets/img/backgrounds/astrocats.png';
-	import ImgYouTubeAlternativeSwitch from '$lib/assets/img/backgrounds/youtube-alternative-switch.png';
-	import ImgMpvYouTubeSearch from '$lib/assets/img/backgrounds/mpv-youtube-search.png';
-
-	const backgrounds = [
-		ImgPeerTalk,
-		ImgReviewCharter,
-		ImgReactWeather,
-		ImgReactPomodoro,
-		ImgReactCalculator,
-		ImgAstrocats,
-		ImgYouTubeAlternativeSwitch,
-		ImgMpvYouTubeSearch
-	] as string[];
-
 	import { projects as projectsJson } from '$src/projects.json';
 
 	interface projects {
@@ -29,6 +8,7 @@
 		description: string;
 		url: string | null;
 		git: string;
+		background: string;
 	}
 
 	const projects: projects[] = $state([]);
@@ -44,13 +24,13 @@
 
 <PageFull --margin="2rem 12rem" --margin-breakpoint="1rem">
 	<section>
-		{#each projects as project, index (index)}
+		{#each projects as project (project.title)}
 			<ProjectCard
 				title={project.title}
 				description={project.description}
 				hrefProject={project.url}
 				hrefRepository={project.git}
-				background={backgrounds[index]}
+				background={project.background}
 			/>
 		{/each}
 	</section>
