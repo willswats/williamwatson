@@ -18,6 +18,8 @@
 					Hi, I'm William. I recently graduated from the University of Portsmouth with a First in
 					Software Engineering, where I collaborated closely with teammates across multiple modules,
 					developing strong communication and project management skills, and built <a
+						target="_blank"
+						rel="noopener noreferrer"
 						href="https://peer-talk.williamwatson.dev/">Peer Talk</a
 					>, a WebRTC web app for peer-to-peer text and voice communication, as my final year
 					project.
@@ -33,8 +35,10 @@
 					I'm currently looking for my first graduate software engineering role. If you're hiring or
 					just want to connect, drop me an email at <a href="mailto:william@williamwatson.dev"
 						>william@williamwatson.dev</a
-					>, or find me on <a href="https://www.linkedin.com/in/willswats/">LinkedIn</a>. In the
-					meantime, feel free to browse my
+					>, or find me on
+					<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/willswats/"
+						>LinkedIn</a
+					>. In the meantime, feel free to browse my
 					<a href="/projects">projects</a>
 					or view my
 					<a
