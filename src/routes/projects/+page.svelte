@@ -8,8 +8,6 @@
 	import ImgReactPomodoro from '$lib/assets/img/backgrounds/react-pomodoro.png';
 	import ImgReactCalculator from '$lib/assets/img/backgrounds/react-calculator.png';
 	import ImgAstrocats from '$lib/assets/img/backgrounds/astrocats.png';
-	import ImgYouTubeAlternativeSwitch from '$lib/assets/img/backgrounds/youtube-alternative-switch.png';
-	import ImgMpvYouTubeSearch from '$lib/assets/img/backgrounds/mpv-youtube-search.png';
 
 	const backgrounds = [
 		ImgPeerTalk,
@@ -17,9 +15,7 @@
 		ImgReactWeather,
 		ImgReactPomodoro,
 		ImgReactCalculator,
-		ImgAstrocats,
-		ImgYouTubeAlternativeSwitch,
-		ImgMpvYouTubeSearch
+		ImgAstrocats
 	] as string[];
 
 	import { projects as projectsJson } from '@/projects.json';

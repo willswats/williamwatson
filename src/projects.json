@@ -35,18 +35,6 @@
       "description": "An asteroids clone built with the Unity Game Engine, featuring new additions to the gameplay.",
       "url": "https://willswats.itch.io/astrocats",
       "git": "https://github.com/willswats/astrocats"
-    },
-    {
-      "title": "YouTube Alternative Switch",
-      "description": "A Firefox extension for quickly switching videos between YouTube, Piped, Invidious and Chat Replay.",
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/youtube-alternative-switch/",
-      "git": "https://github.com/willswats/youtube-alternative-switch"
-    },
-    {
-      "title": "MPV YouTube Search",
-      "description": "An mpv (media player) script that uses the mpv console input to search YouTube or YouTube Music and add the results to the mpv playlist.",
-      "url": null,
-      "git": "https://github.com/willswats/mpv-youtube-search"
     }
   ]
 }
