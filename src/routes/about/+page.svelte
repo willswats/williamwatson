@@ -91,6 +91,8 @@
 		border: 1px solid var(--color-muted);
 		border-radius: var(--border-radius-large);
 		margin-right: 1rem;
+		object-fit: cover;
+		object-position: center;
 	}
 
 	@media screen and (max-width: 1200px) {
